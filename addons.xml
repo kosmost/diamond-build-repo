@@ -794,14 +794,14 @@ This is a Non-profit resource, organized solely for educational purposes which i
 </extension>
 </addon>
 
-<addon id="repository.Diamond-Wizard-Repo2" name=".[COLORwhite]***[/COLOR][COLOR crimson]D[/COLOR][COLOR silver]iamond Build Repo (Server 2 Stand By)[/COLOR][COLORwhite]***[/COLOR]" version="3.7.1" provider-name="Team Diamond">
+<addon id="repository.Diamond-Wizard-Repo2" name=".[COLORwhite]***[/COLOR][COLOR crimson]D[/COLOR][COLOR silver]iamond Build Repo (Server 2 Stand By)[/COLOR][COLORwhite]***[/COLOR]" version="3.7.2" provider-name="Team Diamond">
 <extension point="xbmc.addon.repository" name="Diamond Wizard Repo - Stand By">
 <!-- Diamond Repository -->bobbybark/Bobby-Testings-Repo
 
 <dir>
-<info compressed="false">https://raw.githubusercontent.com/bobbybark/diamond-repo/master/addons.xml</info>
-<checksum>https://raw.githubusercontent.com/bobbybark/diamond-repo/master/addons.xml.md5</checksum>
-<datadir zip="true">https://raw.githubusercontent.com/bobbybark/diamond-repo/master/</datadir>
+<info compressed="false">https://raw.githubusercontent.com/bobbybark/Diamond-Build-Repo/master/addons.xml</info></info>
+<checksum>https://raw.githubusercontent.com/bobbybark/Diamond-Build-Repo/master/addons.xml.md5</checksum>
+<datadir zip="true">https://raw.githubusercontent.com/bobbybark/Diamond-Build-Repo/master/</datadir>
 </dir>
 
 <dir>
