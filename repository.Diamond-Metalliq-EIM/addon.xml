@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.Diamond-Metalliq-EIM" name="[COLOR crimson]D[COLOR silver]iamond EIM MetalliQ Repo (OpenInfo-OpenMeta)[/COLOR][/COLOR]" version="1.0.0" provider-name="Team Diamond">
+<extension point="xbmc.addon.repository" name="Diamond Build (OpenMeta) Repository">
+<!-- Diamond Repository -->
+
+<dir>
+<info compressed="false">http://m3u.xyz/repo-files/eim/addons.xml</info>
+<checksum>http://m3u.xyz/repo-files/eim/addons.xml.md5</checksum>
+<datadir zip="true">http://repo.rubyjewelwizard.com/repo/diamond/eim/zips/</datadir>
+<hashes>false</hashes>
+</dir>
+
+<dir>
+<info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
+<checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
+<datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
+</dir>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary>Diamond Build (OpenMeta) Repository</summary>
+<description>OpenMeta and OpenInfo For Diamond Build.</description>
+<disclaimer></disclaimer>
+<platform>all</platform>
+</extension>
+</addon>
