@@ -502,7 +502,7 @@ v3.0.5
 
 <addon id="plugin.video.themagicdragon"
        name="The Magic Dragon"
-       version="1.30"
+       version="1.31"
        provider-name="Magic Dragon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
