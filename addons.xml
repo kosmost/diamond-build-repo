@@ -107,7 +107,7 @@
 
 </addon>
 
-<addon id="plugin.program.diamondwizard" name="[COLOR yellow]DIA[/COLOR][COLOR blue]MOND[/COLOR][COLOR red] BUILD [/COLOR][COLOR goldenrod]WIZARD[/COLOR] [COLOR yellow](New)[/COLOR]" version="4.40" provider-name="SomeBody">
+<addon id="plugin.program.diamondwizard" name="[COLOR yellow]DIA[/COLOR][COLOR blue]MOND[/COLOR][COLOR red] BUILD [/COLOR][COLOR goldenrod]WIZARD[/COLOR] [COLOR yellow](New)[/COLOR]" version="4.42" provider-name="SomeBody">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
