@@ -243,7 +243,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.luxrayprime" name="[COLOR goldenrod][B]LUXRAY PRIME[/COLOR][/B]" version="2.0.4" provider-name="TJ Smith">
+<addon id="plugin.video.luxrayprime" name="[COLOR goldenrod][B]LUXRAY PRIME[/COLOR][/B]" version="2.0.5" provider-name="TJ Smith">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
