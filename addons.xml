@@ -641,15 +641,14 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-<addon id="repository.Diamond-Metalliq-EIM" name="[COLOR crimson]D[COLOR silver]iamond EIM MetalliQ Repo (OpenInfo-OpenMeta)[/COLOR][/COLOR]" version="1.0.0" provider-name="Team Diamond">
+<addon id="repository.Diamond-Metalliq-EIM" name="[COLOR crimson]D[COLOR silver]iamond EIM MetalliQ Repo (OpenInfo-OpenMeta)[/COLOR][/COLOR]" version="1.2" provider-name="Team Diamond">
 <extension point="xbmc.addon.repository" name="Diamond Build (OpenMeta) Repository">
 <!-- Diamond Repository -->
 
 <dir>
-<info compressed="false">http://m3u.xyz/repo-files/eim/addons.xml</info>
-<checksum>http://m3u.xyz/repo-files/eim/addons.xml.md5</checksum>
-<datadir zip="true">http://repo.rubyjewelwizard.com/repo/diamond/eim/zips/</datadir>
-<hashes>false</hashes>
+<info compressed="false">https://raw.githubusercontent.com/bobbybark/diamond-eim-repo/master/addons.xml</info>
+<checksum>https://raw.githubusercontent.com/bobbybark/diamond-eim-repo/master/addons.xml.md5</checksum>
+<datadir zip="true">https://raw.githubusercontent.com/bobbybark/diamond-eim-repo/master/</datadir>
 </dir>
 
 <dir>
