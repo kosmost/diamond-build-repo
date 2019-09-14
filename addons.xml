@@ -141,7 +141,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.7of9" name="[COLOR aqua][B]7 of 9[/COLOR][/B] [COLOR red][B](AIO)[/COLOR][/B]" version="2.72" provider-name="SomeBody">
+<addon id="plugin.video.7of9" name="[COLOR aqua][B]7 of 9[/COLOR][/B] [COLOR red][B](AIO)[/COLOR][/B]" version="2.73" provider-name="SomeBody">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
