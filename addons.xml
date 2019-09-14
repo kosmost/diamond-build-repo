@@ -1421,7 +1421,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-<addon id="script.module.movietheaterbutter.auto" name="MTB's Greased Lightning Module" version="9999.110" provider-name="MTB">
+<addon id="script.module.movietheaterbutter.auto" name="MTB's Greased Lightning Module" version="9999.111" provider-name="MTB">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.beautifulsoup4"/>
