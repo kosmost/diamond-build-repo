@@ -141,41 +141,6 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.7of9" name="[COLOR aqua][B]7 of 9[/COLOR][/B] [COLOR red][B](AIO)[/COLOR][/B]" version="2.74" provider-name="SomeBody">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.universalscrapers" version="1.0.0" />
-        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
-        <import addon="script.module.beautifulsoup" version="3.2.1" />
-        <import addon="script.module.requests" version="2.9.1" />
-        <import addon="script.module.addon.common" version="2.0.0" />
-        <import addon="script.module.xmltodict" version="0.9.0" />
-        <import addon="script.module.dateutil" />
-        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
-        <import addon="script.module.resolveurl" />
-        <!--<import addon="script.module.urlresolver" />-->
-        <import addon="plugin.video.f4mTester" />
-        <import addon="script.video.F4mProxy" />
-        <import addon="script.module.feedparser" />
-        <import addon="plugin.video.youtube" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>audio video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
-    <extension point="xbmc.addon.metadata">
-<summary lang="en">7of9 - All In One</summary>
-        <description lang="en">7of9 - All In One</description>
-        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
-        <platform>all</platform>
-        <reuselanguageinvoker>false</reuselanguageinvoker>
-    <assets>
-        <icon>icon.gif</icon>
-        <fanart>fanart.jpg</fanart>
-    </assets>
-    </extension>
-</addon>
-
 <addon id="plugin.video.camb" name="[COLOR red][B]COME AT ME BRO[/COLOR][/B]" version="2.0.3" provider-name="TJ Smith">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
@@ -902,7 +867,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 </extension>
 </addon>
 
-<addon id="repository.Diamond-Wizard-Repo" name=".[COLORwhite]***[/COLOR][COLOR crimson]D[/COLOR][COLOR silver]iamond Build Repo (Primary Server, Main Repo)[/COLOR][COLORwhite]***[/COLOR]" version="3.8.5" provider-name="Diamond Build">
+<addon id="repository.Diamond-Wizard-Repo" name=".[COLORwhite]***[/COLOR][COLOR crimson]D[/COLOR][COLOR silver]iamond Build Repo (Primary Server, Main Repo)[/COLOR][COLORwhite]***[/COLOR]" version="3.8.6" provider-name="Diamond Build">
 <extension point="xbmc.addon.repository" name="Diamond Wizard Repo - Primary Server">
 <!-- Diamond Repository -->
 
@@ -910,6 +875,12 @@ This is a Non-profit resource, organized solely for educational purposes which i
 <info compressed="false">https://raw.githubusercontent.com/bobbybark/diamond-build-repo/master/addons.xml</info>
 <checksum>https://raw.githubusercontent.com/bobbybark/diamond-build-repo/master/addons.xml.md5</checksum>
 <datadir zip="true">https://raw.githubusercontent.com/bobbybark/diamond-build-repo/master/</datadir>
+</dir>
+
+<dir>
+<info compressed="false">https://raw.githubusercontent.com/bobbybark/diamond-7of9-addon-repo/master/addons.xml</info>
+<checksum>https://raw.githubusercontent.com/bobbybark/diamond-7of9-addon-repo/master/addons.xml.md5</checksum>
+<datadir zip="true">https://raw.githubusercontent.com/bobbybark/diamond-7of9-addon-repo/master/</datadir>
 </dir>
 
 <dir>
@@ -962,7 +933,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 </extension>
 </addon>
 
-<addon id="repository.Diamond-Wizard-Repo2" name=".[COLORwhite]***[/COLOR][COLOR crimson]D[/COLOR][COLOR silver]iamond Build Repo (Secondary Server, Backup Repo)[/COLOR][COLORwhite]***[/COLOR]" version="3.8.5" provider-name="Diamond Build">
+<addon id="repository.Diamond-Wizard-Repo2" name=".[COLORwhite]***[/COLOR][COLOR crimson]D[/COLOR][COLOR silver]iamond Build Repo (Secondary Server, Backup Repo)[/COLOR][COLORwhite]***[/COLOR]" version="3.8.6" provider-name="Diamond Build">
 <extension point="xbmc.addon.repository" name="Diamond Wizard Repo - Secondary Server">
 <!-- Diamond Repository -->
 
@@ -970,6 +941,12 @@ This is a Non-profit resource, organized solely for educational purposes which i
 <info compressed="false">https://raw.githubusercontent.com/bobbybark/diamond-build-repo/master/addons.xml</info>
 <checksum>https://raw.githubusercontent.com/bobbybark/diamond-build-repo/master/addons.xml.md5</checksum>
 <datadir zip="true">https://raw.githubusercontent.com/bobbybark/diamond-build-repo/master/</datadir>
+</dir>
+
+<dir>
+<info compressed="false">https://raw.githubusercontent.com/bobbybark/diamond-7of9-addon-repo/master/addons.xml</info>
+<checksum>https://raw.githubusercontent.com/bobbybark/diamond-7of9-addon-repo/master/addons.xml.md5</checksum>
+<datadir zip="true">https://raw.githubusercontent.com/bobbybark/diamond-7of9-addon-repo/master/</datadir>
 </dir>
 
 <dir>
