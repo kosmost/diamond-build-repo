@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.module.movietheaterbutter" name="Movie Theater Butter Module" version="9999.109" provider-name="MTB">
+<addon id="script.module.movietheaterbutter" name="Movie Theater Butter Module" version="9999.111" provider-name="MTB">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.beautifulsoup4"/>
