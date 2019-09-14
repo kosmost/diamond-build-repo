@@ -298,21 +298,6 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.motherless.Diamondize"
-	   name="motherless"
-	   version="1.0.2"
-	   provider-name="motherless">
-  <extension point="xbmc.python.pluginsource"
-			 library="default.py">
-    	<provides>all</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Adult(18+) videos from motherless.com</summary>
-    <description>Adult(18+) videos from motherless.com</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.movietheaterbutter.auto" version="3.26" name="MTB's Greased Lightning - Fast AutoPlay" provider-name="MTB">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -1041,28 +1026,6 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-<addon id="script.4qedfilters.xxx.diamondize" name="4[COLOR limegreen]Q[/COLOR]ED XXX Script By: CDTV" version="2.2.1" provider-name="[COLOR lime]Serious Fork[/COLOR]">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" />
-
-
-  </requires>
-  <extension point="xbmc.python.pluginsource"       library="default.py">
-    <provides>all</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-  <summary lang="en">4QED FILTERS XXX Script By: CDTV</summary>
-  <description lang="en">No content is hosted by the addon creators[CR][COLORlime]Credits and thanks to The Perverted[/COLOR]</description>
-  <disclaimer lang="en">Credits and thanks to The Perverted</disclaimer>
-  <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="script.diamond.ftgpair" name="[B][COLOR yellow]DIA[/COLOR][COLOR blue]MOND[/COLOR][/B] [COLOR orange]Pair[/COLOR] Tool" version="999.999.002" provider-name="[COLOR red]F[COLOR white]T[COLOR blue]G[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1120,123 +1083,6 @@ This is a Non-profit resource, organized solely for educational purposes which i
     <license>The MIT License</license>
     <platform>all</platform>
     <language></language>
-  </extension>
-</addon>
-
-<addon id="script.module.7of9-goldenage" name="[B][COLOR gold]Golden Age - 7of9 Module[/COLOR][/B]" version="2.7" provider-name="Chuck U Farley">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.resolveurl" version="5.0.0.5" />
-    <import addon="script.module.requests" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>all</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Timeless Classics from The Golden Age</summary>
-    <description lang="en">Added search and photo</description>
-    <disclaimer lang="en">The author does not host or own any content found within this Addon. The Author is not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="script.module.7of9-live" name="7of9 live (TVtap)" version="2.2" provider-name="7of9">
-  <requires>
-    <import addon="xbmc.python" version="2.26.0"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.requests-cache" />
-    <import addon="script.module.routing" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>all</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="en_gb">Cloned for 7of9 users from RACC TvTap Module. All credit must go to anyone involved in the Original Code</summary>
-    <description lang="en_gb">Module for TvTap APK</description>
-    <disclaimer lang="en_gb"></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license></license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source>Requires Kodi 18 Leia</source>
-  </extension>
-</addon>
-
-<addon id="script.module.7of9-swiftstreamz" name="7of9 Swift Streamz" version="2.0" provider-name="7of9">
-  <requires>
-    <import addon="script.module.requests" />
-    <import addon="script.module.requests-cache" />
-    <import addon="script.module.routing" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>all</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_gb">Cloned for 7of9 users from RACC SwiftStreamz Module. All credit must go to anyone involved in the Original Code</summary>
-    <description lang="en_gb">Module for SwiftStreamz APK</description>
-    <disclaimer lang="en_gb"></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license></license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source>Requires Kodi 18 Leia</source>
-  </extension>
-</addon>
-
-<addon id="script.module.7of9-tubi" name="7of9 TUBITV Module" version="0.1.3c" provider-name="Majide">
-  <requires>
-  	<import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-  	<provides>all</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-  	<summary lang="en">Watch free TV shows and movies from tubitv.com</summary>
-  	<description lang="en">Tubi TV offers free popular movies and TV series streaming to you in full HD. Unlike Netflix and Hulu, Tubi TV is absolutely free. You don’t have to spend a dime. You don’t have to register with your credit card. Unlike cable, you can watch it anywhere, anytime and on any device, so grab your popcorn and enjoy! Free shows and movies are added every week, so you’ll never run out of entertainment on the go. Watch new movies, action flicks, documentaries, Korean dramas, anime, horror and so much more, without ever paying a subscription fee! Tubi TV has the largest library of free and legal TV shows and movies to choose from, whenever and wherever you want!</description>
-  	<disclaimer lang="en">This is not an official addon! If the official APP is available for your platform, use it instead of this addon. All rights on content are reserved by movie studios.</disclaimer>
-  	<language>en</language>
-  	<platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-  	<forum>https://kodibg.org/forum/thread-223.html</forum>
-  	<website>https://tubitv.com</website>
-  	<news>Small fixes in metadata visualization, video descriptions and order. The addon support continues for USA users. The EU users cannot use TUBI anymore, because GDPR.</news>
-	<assets>
-	   <icon>resources/icon.png</icon>
-       <fanart>resources/fanart.jpg</fanart>
-       <screenshot>resources/screenshot-01.jpg</screenshot>
-       <screenshot>resources/screenshot-02.jpg</screenshot>
-       <screenshot>resources/screenshot-03.jpg</screenshot>
-	</assets>
-  </extension>
-</addon>
-
-<addon id="script.module.7of9-worldtv" name="7of9 World Tv" version="1.3" provider-name="7of9">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.livestreamer" />
-    <import addon="script.module.pyamf" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.routing" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>all</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_gb">Cloned for 7of9 users from RACC TvOne111 Module. All credit must go to anyone involved in the Original Code</summary>
-    <description lang="en_gb">Module for World Tv</description>
-    <disclaimer lang="en_gb"></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license></license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
   </extension>
 </addon>
 
@@ -1760,61 +1606,6 @@ Documentation: https://github.com/tamland/kodi-plugin-routing</description>
     </extension>
 </addon>
 
-<addon id="script.module.uwc"
-       name="Ultimate Whitecream"
-       version="1.1.91b"
-       provider-name="Whitecream, holisticdioxide">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.resolveurl" version="5.0.00"/>
-        <import addon="script.module.resolveurl.xxx" version="2.0.01"/>
-        <import addon="script.video.F4mProxy" version="2.5.7" />
-		<import addon="script.module.requests" />
-
-    </requires>
-    <extension point="xbmc.python.pluginsource"
-               library="default.py">
-        <provides>all</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <license>GPL 2.0</license>
-        <summary lang="en">Watch [COLOR red][B]ADULT[/B][/COLOR] Movies with Ultimate WhiteCream</summary>
-        <description lang="en">Watch [COLOR red][B]ADULT[/B][/COLOR] Movies with Ultimate WhiteCream</description>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider. DMCA - holisticdioxide@protonmail.com</disclaimer>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
-        <news>[B]Version 1.1.91[/B]
-Fixed: Animeid Hentai
-Fixed: XXX Streams(eu) Next Button
-Fixed: Downloads on many sites
-</news>
-    </extension>
-</addon>
-
-<addon
-  id="script.module.videodevil"
-  version="1.7.197"
-  name="VideoDevil"
-  provider-name="xbmc-adult">
-  <requires>
-   <import addon="xbmc.python" version="2.14.0"/>
-  </requires>
-  <extension
-    point="xbmc.python.pluginsource"
-    library="default.py">
-   <provides>all</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Play videos from different adult streaming sites</summary>
-    <description>This addon plays videos from YouPorn, Tube8, Boysfood, MoviesAnd, PornoTube, xHamster, KeezMovies and some other adult streaming sites. It contains explicit adult material. You may only view this addon if you are at least 18 years of age, or at least the age of majority in the jurisdiction where you reside or from which you access this content. If you do not meet these requirements, then you do not have permission to use this addon. </description>
-    <disclaimer>The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="script.module.web-pdb"
        name="Web-PDB"
        version="1.4.3"
@@ -1851,26 +1642,6 @@ Fixed: Downloads on many sites
     <language />
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id="script.module.you.jizz"
-       name="YouJizz.com"
-       version="1.0.23"
-       provider-name="xbmc-adult">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.future"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource"
-               library="default.py">
-        <provides>all</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <license>GPL 2.0</license>
-        <summary lang="en">YouJizz.com</summary>
-        <description lang="en">****ADULT CONTENT***** Watch erotic and sexy videos from YouJizz.com</description>
-    </extension>
 </addon>
 
 <addon id="script.module.youtube.dl" name="youtube-dl Control" version="18.1107.0" provider-name="Rick Phillips (ruuk)">
