@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.artwork.movietheaterbutter.auto" version="9999.115" name="Greased Lightning Artwork - Auto" provider-name="Greased Lightning">
+<addon id="script.artwork.movietheaterbutter.auto" version="9999.116" name="Greased Lightning Artwork - Auto" provider-name="Greased Lightning">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
     </requires>
