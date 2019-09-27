@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.movietheaterbutter.auto" version="4.10" name="Greased Lightning - AutoPlay" provider-name="Greased Lightning">
+<addon id="plugin.video.movietheaterbutter.auto" version="4.11" name="Greased Lightning Movie Cinema" provider-name="Greased Lightning">
    <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.movietheaterbutter.auto" />
