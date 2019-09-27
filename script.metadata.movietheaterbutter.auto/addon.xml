@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.metadata.movietheaterbutter.auto" version="9999.20" name="Greased Lightning Metadata - Auto" provider-name="Greased Lightning">
+<addon id="script.metadata.movietheaterbutter.auto" version="9999.21" name="Greased Lightning Metadata" provider-name="Greased Lightning">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
     </requires>
