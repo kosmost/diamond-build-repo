@@ -238,7 +238,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.movietheaterbutter.auto" version="4.12" name="Greased Lightning Movie Cinema" provider-name="Greased Lightning">
+<addon id="plugin.video.movietheaterbutter.auto" version="4.13" name="Greased Lightning Movie Cinema" provider-name="Greased Lightning">
    <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.movietheaterbutter.auto" />
@@ -1230,7 +1230,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-<addon id="script.module.movietheaterbutter.auto" version="9999.116" name="Greased Lightning Module" provider-name="Greased Lightning">
+<addon id="script.module.movietheaterbutter.auto" version="9999.117" name="Greased Lightning Module" provider-name="Greased Lightning">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4"/>
