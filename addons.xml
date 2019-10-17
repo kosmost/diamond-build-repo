@@ -717,7 +717,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-<addon id="plugin.video.yttcaughtonvideo" name="[COLOR aqua][B]Caught On Video[/COLOR][/B]" version="1.0" provider-name="SomeBody">
+<addon id="plugin.video.yttcaughtonvideo" name="[COLOR aqua][B]Caught On Video[/COLOR][/B]" version="1.1" provider-name="SomeBody">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -727,16 +727,14 @@ This is a Non-profit resource, organized solely for educational purposes which i
         <import addon="script.module.addon.common" version="2.0.0" />
         <import addon="script.module.xmltodict" version="0.9.0" />
         <import addon="script.module.dateutil" />
-        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
-        <import addon="script.module.resolveurl" />
-        <!--<import addon="script.module.urlresolver" />-->
-        <import addon="plugin.video.f4mTester" />
-        <import addon="script.video.F4mProxy" />
         <import addon="script.module.feedparser" />
         <import addon="plugin.video.youtube" />
+        <import addon="script.module.resolveurl" />
+        <!--<import addon="plugin.video.f4mTester" />-->
+        <!--<import addon="script.video.F4mProxy" />-->
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>audio video</provides>
+        <provides>video</provides>
     </extension>
     <extension point="xbmc.service" library="service.py" start="[login|startup]" />
     <extension point="xbmc.addon.metadata">
