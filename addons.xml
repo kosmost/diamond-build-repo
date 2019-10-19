@@ -173,7 +173,7 @@
 
 <addon id="plugin.video.destinyofborg"
 	   name="Locutus (Destiny of 7of9) Best To Enable Real-Debrid"
-	   version="2.3"
+	   version="2.4"
 	   provider-name="Dark Child">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
