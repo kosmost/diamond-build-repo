@@ -141,7 +141,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.alphaquadrant" name="[B][COLOR lightseagreen]Alpha Quadrant[/COLOR][/B]" version="2.2" provider-name="SomeBody">
+<addon id="plugin.video.alphaquadrant" name="[B][COLOR lightseagreen]Alpha Quadrant[/COLOR][/B]" version="2.3" provider-name="SomeBody">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -235,35 +235,6 @@
         <fanart>fanart.jpg</fanart>
     </assets>
     </extension>
-</addon>
-
-<addon id="plugin.video.destinyofborg"
-	   name="Locutus (Destiny of 7of9) Best To Enable Real-Debrid"
-	   version="2.4"
-	   provider-name="Dark Child">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.requests"/>
-	<import addon="script.module.python.koding.aio" version="0.9.6.6" />
-	<import addon="script.module.resolveurl" version="5.0.00"/>
-	<import addon="script.common.plugin.cache" version="2.5.5"/>
-	<import addon="script.module.pyxbmct" version="1.1.4" />
-	<import addon="script.module.futures" version="2.2.0"/>
-	<import addon="script.module.universalscrapers"/>
-	<import addon="script.module.beautifulsoup4" version="4.5.3"/>
-	<import addon="script.module.feedparser" />
-	<import addon="script.module.dateutil" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Fork of Destiny</summary>
-    <description lang="en">Destiny and 7 of 9 have been united. Tweaked Version by DaB.</description>
-    <platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="plugin.video.DiamondCinema" name="Diamond Cinema" version="1.2.90" provider-name="Team Diamond">
