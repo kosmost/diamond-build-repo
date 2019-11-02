@@ -1143,7 +1143,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
   </extension>
 </addon>
 
-<addon id="script.module.diamondcrapers" name="[COLOR lime][B]Greased Lightning OpenScrapers Module[/COLOR][/B]" version="0.0.1.98b" provider-name="Addons4Kodi">
+<addon id="script.module.diamondcrapers" name="[COLOR lime][B]Greased Lightning OpenScrapers Module[/COLOR][/B]" version="0.0.1.98c" provider-name="Addons4Kodi">
     <requires>
         <import addon="xbmc.python" version="2.25.0" />
         <import addon="script.module.beautifulsoup4"/>
