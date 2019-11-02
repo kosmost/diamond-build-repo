@@ -275,6 +275,54 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.movietheaterbutter.auto" version="4.14" name="[COLOR lime][B]Greased Lightning Movie Cinema[/COLOR][/B]" provider-name="Greased Lightning">
+   <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.movietheaterbutter.auto" />
+        <import addon="script.artwork.movietheaterbutter.auto" />
+        <import addon="script.metadata.movietheaterbutter.auto" />
+        <import addon="script.module.resolveurl" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.metahandler" />
+		<import addon="script.module.diamondcrapers" version="0.0.1.82" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="defiant.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="kodi.context.item">
+		<menu id="kodi.core.main">
+			<menu>
+				<label>Greased Lightning</label>
+				<item library="context_toggle.py">
+					<label>Preferred toggle</label>
+					<visible>!System.HasAddon(context.movietheaterbutter.auto) + !Skin.HasSetting(Toggling)</visible>
+				</item>
+				<item library="context_movie.py">
+					<label>$ADDON[plugin.video.movietheaterbutter.auto 30602]</label>
+					<visible>StringCompare(ListItem.dbtype,movie) + SubString(ListItem.Path, plugin.video.movietheaterbutter.auto)</visible>
+				</item>
+				<item library="context_tvshow.py">
+					<label>$ADDON[plugin.video.movietheaterbutter.auto 30602]</label>
+					<visible>StringCompare(ListItem.dbtype,tvshow) + SubString(ListItem.Path, plugin.video.movietheaterbutter.auto)</visible>
+				</item>
+			</menu>
+		</menu>
+	</extension>
+    <extension point="xbmc.addon.metadata">
+		<summary lang="en">Greased Lightning Could Not Be Possible Without 13Clowns, Atreides, Exodus, Exodus Redux, Placenta, Michaelmyers, Resistance, Incursion or Yoda. Much Respect To The Devs That Came Before.</summary>
+		<disclaimer lang="en">The authors of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<description lang="en">Greased Lightning Could Not Be Possible Without 13Clowns, Atreides, Exodus, Exodus Redux, Placenta, Michaelmyers, Resistance, Incursion or Yoda. Much Respect To The Devs That Came Before.</description>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+    <news></news>
+    </extension>
+</addon>
+
 <addon id="plugin.video.mtb.vr8fg8b" version="2.1" name="[COLOR aqua][B]The USS Defiant[/COLOR][/B]" provider-name="Defiant">
    <requires>
         <import addon="xbmc.python" version="2.19.0" />
@@ -920,6 +968,27 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
+<addon id="script.artwork.movietheaterbutter.auto" version="9999.22" name="[COLOR lime][B]Greased Lightning Artwork[/COLOR][/B]" provider-name="Greased Lightning">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+		<summary>Themes for the Greased Lightning Addon</summary>
+		<description>Artwork Module for the The Greased Lightning Addon</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.
+The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
+This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+    <news></news>
+    </extension>
+</addon>
+
 <addon id="script.diamond.ftgpair" name="[B][COLOR yellow]DIA[/COLOR][COLOR blue]MOND[/COLOR][/B] [COLOR orange]Pair[/COLOR] Tool" version="999.999.002" provider-name="[COLOR red]F[COLOR white]T[COLOR blue]G[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -978,6 +1047,27 @@ This is a Non-profit resource, organized solely for educational purposes which i
     <platform>all</platform>
     <language></language>
   </extension>
+</addon>
+
+<addon id="script.metadata.movietheaterbutter.auto" version="9999.22" name="[COLOR lime][B]Greased Lightning Metadata[/COLOR][/B]" provider-name="Greased Lightning">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+		<summary>Metadata for the Greased Lightning Addon</summary>
+		<description>Metadata for The Greased Lightning are maintained separately to make distribution of the the addon itself easier/faster.</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.
+The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
+This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+    <news></news>
+    </extension>
 </addon>
 
 <addon id="script.module.bottle" name="Bottle" version="0.12.8" provider-name="Team Kodi">
@@ -1053,7 +1143,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
   </extension>
 </addon>
 
-<addon id="script.module.diamondcrapers" name="Greased Lightning OpenScrapers Module" version="0.0.1.95e" provider-name="Addons4Kodi">
+<addon id="script.module.diamondcrapers" name="[COLOR lime][B]Greased Lightning OpenScrapers Module[/COLOR][/B]" version="0.0.1.98b" provider-name="Addons4Kodi">
     <requires>
         <import addon="xbmc.python" version="2.25.0" />
         <import addon="script.module.beautifulsoup4"/>
@@ -1064,7 +1154,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
     </extension>
         <extension point="xbmc.addon.metadata">
             <platform>all</platform>
-            <summary lang="en">OpenScrapers (Greased Lightning) Module</summary>
+            <summary lang="en">OpenScrapers Module 4 Greased Lightning </summary>
             <description>Scrape common video host for URL's to be playable in Kodi, simplifying addon development of video plugins requiring multi video hosts.</description>
                 <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
     <platform>all</platform>
@@ -1073,7 +1163,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
         <icon>icon.png</icon>
         <fanart></fanart>
     </assets>
-    <news>v0.0.1.93 - Scraper cleanup and EOL fixes</news>
+    <news>v0.0.1.98 - Scraper updates and language additions</news>
     </extension>
 </addon>
 
@@ -1148,6 +1238,30 @@ This is a Non-profit resource, organized solely for educational purposes which i
 		<platform>all</platform>
 		<summary lang="en">Forked from TK Norris Shared Module. Reusable Modules used by several of Echo's addons</summary>
 	</extension>
+</addon>
+
+<addon id="script.module.movietheaterbutter.auto" version="9999.118" name="[COLOR lime][B]Greased Lightning Module[/COLOR][/B]" provider-name="Greased Lightning">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.beautifulsoup4"/>
+        <import addon="script.module.simplejson"/>
+        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+    <summary lang="en">[B][COLOR red]Greased Lightning[/COLOR] Script.Module[/B] is a free portal for circus freaks to see the best stuff.</summary>
+    <description lang="en">This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+    <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works</disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+    <news></news>
+    </extension>
 </addon>
 
 <addon id="script.module.mtb.vr8fg8b" version="2.0.2" name="The USS Defiant Module" provider-name="Defiant">
