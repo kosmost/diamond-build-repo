@@ -255,7 +255,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.livehub2.Diamondize" name="A Pirate's Life for Me" version="10.7" provider-name="SomeBody">
+<addon id="plugin.video.livehub2.Diamondize" name="[COLOR aqua][B]A Pirate's Life for Me[/COLOR][/B]" version="10.8" provider-name="SomeBody">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
