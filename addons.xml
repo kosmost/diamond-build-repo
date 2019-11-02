@@ -275,7 +275,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.mtb.vr8fg8b" version="2.0.7" name="The USS Defiant" provider-name="Defiant">
+<addon id="plugin.video.mtb.vr8fg8b" version="2.1" name="[COLOR aqua][B]The USS Defiant[/COLOR][/B]" provider-name="Defiant">
    <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.mtb.vr8fg8b" />
