@@ -141,7 +141,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.alphaquadrant" name="[B][COLOR lightseagreen]Alpha Quadrant[/COLOR][/B]" version="2.3" provider-name="SomeBody">
+<addon id="plugin.video.alphaquadrant" name="[B][COLOR lightseagreen]Alpha Quadrant[/COLOR][/B]" version="2.4" provider-name="SomeBody">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -273,116 +273,6 @@
 	<disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id="plugin.video.movietheaterbutter.auto" version="4.13" name="Greased Lightning Movie Cinema" provider-name="Greased Lightning">
-   <requires>
-        <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.movietheaterbutter.auto" />
-        <import addon="script.artwork.movietheaterbutter.auto" />
-        <import addon="script.metadata.movietheaterbutter.auto" />
-        <import addon="script.module.resolveurl" />
-        <import addon="script.module.requests" />
-        <import addon="script.module.metahandler" />
-		<import addon="script.module.diamondcrapers" version="0.0.1.82" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="defiant.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="startup" />
-	<extension point="kodi.context.item">
-		<menu id="kodi.core.main">
-			<menu>
-				<label>Greased Lightning</label>
-				<item library="context_toggle.py">
-					<label>Preferred toggle</label>
-					<visible>!System.HasAddon(context.movietheaterbutter.auto) + !Skin.HasSetting(Toggling)</visible>
-				</item>
-				<item library="context_movie.py">
-					<label>$ADDON[plugin.video.movietheaterbutter.auto 30602]</label>
-					<visible>StringCompare(ListItem.dbtype,movie) + SubString(ListItem.Path, plugin.video.movietheaterbutter.auto)</visible>
-				</item>
-				<item library="context_tvshow.py">
-					<label>$ADDON[plugin.video.movietheaterbutter.auto 30602]</label>
-					<visible>StringCompare(ListItem.dbtype,tvshow) + SubString(ListItem.Path, plugin.video.movietheaterbutter.auto)</visible>
-				</item>
-			</menu>
-		</menu>
-	</extension>
-    <extension point="xbmc.addon.metadata">
-		<summary lang="en">Greased Lightning Could Not Be Possible Without 13Clowns, Atreides, Exodus, Exodus Redux, Placenta, Michaelmyers, Resistance, Incursion or Yoda. Much Respect To The Devs That Came Before.</summary>
-		<disclaimer lang="en">The authors of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-		<description lang="en">Greased Lightning Could Not Be Possible Without 13Clowns, Atreides, Exodus, Exodus Redux, Placenta, Michaelmyers, Resistance, Incursion or Yoda. Much Respect To The Devs That Came Before.</description>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
-    </assets>
-    <news></news>
-    </extension>
-</addon>
-
-<addon id="plugin.video.movietheaterbutter.RD" version="3.26" name="MTB - RD/Torrent Preset Max 4K Select Link" provider-name="MTB">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.movietheaterbutter" />
-		<import addon="script.movietheaterbutter.artwork" />
-		<import addon="script.movietheaterbutter.metadata" />
-		<import addon="script.module.resolveurl" />
-		<import addon="script.module.requests" />
-		<import addon="script.module.metahandler" />
-		<import addon="plugin.video.youtube" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="movietheaterbutter.py">
-		<provides>all</provides>
-	</extension>
-    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Movie Theater Butter Could Not Be Possible Without Atreides, Exodus, Exodus Redux, Placenta, Michaelmyers,  Resistance, Incursion or Yoda. Much Respect To The Devs That Came Before Us.</summary>
-		<disclaimer lang="en">The authors of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-		<description lang="en">This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-    			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
-    			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
-    			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
-		</assets>
-	</extension>
-</addon>
-
-<addon id="plugin.video.movietheaterbutter2" version="3.26" name="Movie Theater Butter - Select Link" provider-name="MTB">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.movietheaterbutter" />
-		<import addon="script.movietheaterbutter.artwork" />
-		<import addon="script.movietheaterbutter.metadata" />
-		<import addon="script.module.resolveurl" />
-		<import addon="script.module.requests" />
-		<import addon="script.module.metahandler" />
-		<import addon="plugin.video.youtube" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="movietheaterbutter.py">
-		<provides>video</provides>
-	</extension>
-    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Movie Theater Butter Could Not Be Possible Without Atreides, Exodus, Exodus Redux, Placenta, Michaelmyers,  Resistance, Incursion or Yoda. Much Respect To The Devs That Came Before Us.</summary>
-		<disclaimer lang="en">The authors of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-		<description lang="en">This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-    			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
-    			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
-    			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
-		</assets>
-	</extension>
 </addon>
 
 <addon id="plugin.video.mtb.vr8fg8b" version="2.0.7" name="The USS Defiant" provider-name="Defiant">
@@ -616,7 +506,7 @@ For updates check the readme.
   </extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="6.5.2~beta2" provider-name="anxdpanic, bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="6.5.2" provider-name="anxdpanic, bromix">
     <requires>
         <import addon="xbmc.python" version="2.20.0"/>
         <import addon="script.module.six" version="1.11.0"/>
@@ -634,7 +524,11 @@ For updates check the readme.
 [fix] playback (No streams found)
 [fix] missing metadata
 [fix] ended live streams not using mpeg-dash when enabled
-[fix] check for and convert unexpected timestamp format
+[fix] subscriptions not showing latest videos
+[upd] simplify youtube_resolver regex |contrib: Twilight0|
+[lang] de_de strings |contrib: TehTux|
+[lang] pl_pl strings |contrib: drrak|
+[lang] nl_nl strings |contrib: Markman-B|
         </news>
         <assets>
             <icon>icon.png</icon>
@@ -685,7 +579,6 @@ For updates check the readme.
         <reuselanguageinvoker>true</reuselanguageinvoker>
     </extension>
 </addon>
-<!-- unofficial -->
 
 <addon id="plugin.video.youtube.theater" name="Youtube Theater" version="2.2" provider-name="Diamond Build">
     <requires>
@@ -1027,27 +920,6 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-<addon id="script.artwork.movietheaterbutter.auto" version="9999.21" name="Greased Lightning Artwork" provider-name="Greased Lightning">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.addon.metadata">
-		<summary>Themes for the Greased Lightning Addon</summary>
-		<description>Artwork Module for the The Greased Lightning Addon</description>
-        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.
-The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
-This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
-    </assets>
-    <news></news>
-    </extension>
-</addon>
-
 <addon id="script.diamond.ftgpair" name="[B][COLOR yellow]DIA[/COLOR][COLOR blue]MOND[/COLOR][/B] [COLOR orange]Pair[/COLOR] Tool" version="999.999.002" provider-name="[COLOR red]F[COLOR white]T[COLOR blue]G[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1106,27 +978,6 @@ This is a Non-profit resource, organized solely for educational purposes which i
     <platform>all</platform>
     <language></language>
   </extension>
-</addon>
-
-<addon id="script.metadata.movietheaterbutter.auto" version="9999.21" name="Greased Lightning Metadata" provider-name="Greased Lightning">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.addon.metadata">
-		<summary>Metadata for the Greased Lightning Addon</summary>
-		<description>Metadata for The Greased Lightning are maintained separately to make distribution of the the addon itself easier/faster.</description>
-        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.
-The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
-This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
-    </assets>
-    <news></news>
-    </extension>
 </addon>
 
 <addon id="script.module.bottle" name="Bottle" version="0.12.8" provider-name="Team Kodi">
@@ -1297,42 +1148,6 @@ This is a Non-profit resource, organized solely for educational purposes which i
 		<platform>all</platform>
 		<summary lang="en">Forked from TK Norris Shared Module. Reusable Modules used by several of Echo's addons</summary>
 	</extension>
-</addon>
-
-<addon id="script.module.movietheaterbutter" name="Movie Theater Butter Module" version="9999.112" provider-name="MTB">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.beautifulsoup4"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Source Module for the Movie Theater Butter Addon</summary>
-	</extension>
-</addon>
-
-<addon id="script.module.movietheaterbutter.auto" version="9999.117" name="Greased Lightning Module" provider-name="Greased Lightning">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0" />
-        <import addon="script.module.beautifulsoup4"/>
-        <import addon="script.module.simplejson"/>
-        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
-        <import addon="script.module.requests" version="2.9.1" />
-        <import addon="script.module.xmltodict" version="0.9.0" />
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.addon.metadata">
-    <summary lang="en">[B][COLOR red]Greased Lightning[/COLOR] Script.Module[/B] is a free portal for circus freaks to see the best stuff.</summary>
-    <description lang="en">This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.The author does not host any of the content in this addon and takes no responsibility for content found.</description>
-    <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works</disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
-    </assets>
-    <news></news>
-    </extension>
 </addon>
 
 <addon id="script.module.mtb.vr8fg8b" version="2.0.2" name="The USS Defiant Module" provider-name="Defiant">
@@ -1721,38 +1536,6 @@ Documentation: https://github.com/tamland/kodi-plugin-routing</description>
         <forum>https://forum.kodi.tv/showthread.php?tid=200877</forum>
         <source>http://github.com/ruuk/script.module.youtube.dl</source>
     </extension>
-</addon>
-
-<addon id="script.movietheaterbutter.artwork" version="9999.0" name="Movie Theater Butter Artwork" provider-name="Team Diamond">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Themes for the MTB Addon</summary>
-		<description>Artwork Module for the MTB Addon</description>
-        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.
-The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
-This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
-        <license>Beerware rev. 42</license>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="script.movietheaterbutter.metadata" version="9999.0" name="Movie Theater Butter Metadata" provider-name="Team Diamond">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Metadata for the MTB Addon</summary>
-		<description>Metadata for MTB are maintained separately to make distribution of the the addon itself easier/faster.</description>
-        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.
-The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
-This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
-        <license>Beerware rev. 42</license>
-		<platform>all</platform>
-	</extension>
 </addon>
 
 <addon id="script.mtb.vr8fg8b.artwork" version="2.0.3" name="The USS Defiant Artwork" provider-name="Defiant">
