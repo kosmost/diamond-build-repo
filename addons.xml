@@ -525,7 +525,7 @@ For updates check the readme.
 
 <addon id="plugin.video.themagicdragon"
        name="The Magic Dragon"
-       version="1.31"
+       version="1.32"
        provider-name="Magic Dragon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
