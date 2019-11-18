@@ -341,6 +341,54 @@ This is a Non-profit resource, organized solely for educational purposes which i
   </extension>
 </addon>
 
+<addon id="plugin.video.mtb.vr8fg8b" version="2.1" name="[COLOR aqua][B]The USS Defiant[/COLOR][/B]" provider-name="Defiant">
+   <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.mtb.vr8fg8b" />
+        <import addon="script.mtb.vr8fg8b.artwork" />
+        <import addon="script.mtb.vr8fg8b.metadata" />
+        <import addon="script.module.resolveurl" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.metahandler" />
+		<import addon="script.module.openscrapers" version="0.0.1.82" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="defiant.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="kodi.context.item">
+		<menu id="kodi.core.main">
+			<menu>
+				<label>The USS Defiant</label>
+				<item library="context_toggle.py">
+					<label>Preferred toggle</label>
+					<visible>!System.HasAddon(context.mtb.vr8fg8b) + !Skin.HasSetting(Toggling)</visible>
+				</item>
+				<item library="context_movie.py">
+					<label>$ADDON[plugin.video.mtb.vr8fg8b 30602]</label>
+					<visible>StringCompare(ListItem.dbtype,movie) + SubString(ListItem.Path, plugin.video.mtb.vr8fg8b)</visible>
+				</item>
+				<item library="context_tvshow.py">
+					<label>$ADDON[plugin.video.mtb.vr8fg8b 30602]</label>
+					<visible>StringCompare(ListItem.dbtype,tvshow) + SubString(ListItem.Path, plugin.video.mtb.vr8fg8b)</visible>
+				</item>
+			</menu>
+		</menu>
+	</extension>
+    <extension point="xbmc.addon.metadata">
+		<summary lang="en">The USS Defiant Could Not Be Possible Without 13Clowns, Atreides, Exodus, Exodus Redux, Placenta, Michaelmyers, Resistance, Incursion or Yoda. Much Respect To The Devs That Came Before.</summary>
+		<disclaimer lang="en">The authors of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<description lang="en">The USS Defiant Could Not Be Possible Without 13Clowns, Atreides, Exodus, Exodus Redux, Placenta, Michaelmyers, Resistance, Incursion or Yoda. Much Respect To The Devs That Came Before.</description>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <assets>
+        <icon>icon.gif</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+    <news></news>
+    </extension>
+</addon>
+
 <addon id="plugin.video.my.apple_trailers" version="2.0.0.B" name="My Apple Trailers" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -1144,6 +1192,33 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
+<addon id="script.module.mtb.vr8fg8b" version="2.0.5" name="The USS Defiant Module" provider-name="Defiant">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.beautifulsoup4"/>
+        <import addon="script.module.simplejson"/>
+        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+    <summary lang="en">[B][COLOR red]The USS Defiant[/COLOR] Script.Module[/B] is a free portal for circus freaks to see the best stuff.</summary>
+    <description lang="en">This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+    <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works</disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart></fanart>
+        <screenshot></screenshot>
+        <screenshot></screenshot>
+        <screenshot></screenshot>
+    </assets>
+    <news></news>
+    </extension>
+</addon>
+
 <addon id="script.module.nanscrapers" name="NaN Scrapers" version="0.5.51" provider-name="Team NaN">
         <requires>
                 <import addon="xbmc.python" version="2.1.0"/>
@@ -1436,6 +1511,54 @@ Documentation: https://github.com/tamland/kodi-plugin-routing</description>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <forum>https://forum.kodi.tv/showthread.php?tid=200877</forum>
         <source>http://github.com/ruuk/script.module.youtube.dl</source>
+    </extension>
+</addon>
+
+<addon id="script.mtb.vr8fg8b.artwork" version="2.0.3" name="The USS Defiant Artwork" provider-name="Defiant">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+		<summary>Themes for the The USS Defiant Addon</summary>
+		<description>Artwork Module for the The USS Defiant Addon</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.
+The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
+This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart></fanart>
+        <screenshot></screenshot>
+        <screenshot></screenshot>
+        <screenshot></screenshot>
+    </assets>
+    <news></news>
+    </extension>
+</addon>
+
+<addon id="script.mtb.vr8fg8b.metadata" version="2.0.3" name="The USS Defiant Metadata" provider-name="Defiant">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+		<summary>Metadata for the The USS Defiant Addon</summary>
+		<description>Metadata for The USS Defiant are maintained separately to make distribution of the the addon itself easier/faster.</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.
+The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
+This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart></fanart>
+        <screenshot></screenshot>
+        <screenshot></screenshot>
+        <screenshot></screenshot>
+    </assets>
+    <news></news>
     </extension>
 </addon>
 
