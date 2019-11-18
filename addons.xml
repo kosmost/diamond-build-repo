@@ -1535,7 +1535,7 @@ Documentation: https://github.com/tamland/kodi-plugin-routing</description>
     </extension>
 </addon>
 
-<addon id="script.mtb.vr8fg8b.artwork" version="2.0.4" name="The USS Defiant Artwork" provider-name="Defiant">
+<addon id="script.mtb.vr8fg8b.artwork" version="2.0.5" name="The USS Defiant Artwork" provider-name="Defiant">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
     </requires>

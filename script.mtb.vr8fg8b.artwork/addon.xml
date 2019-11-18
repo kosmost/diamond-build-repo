@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.mtb.vr8fg8b.artwork" version="2.0.4" name="The USS Defiant Artwork" provider-name="Defiant">
+<addon id="script.mtb.vr8fg8b.artwork" version="2.0.5" name="The USS Defiant Artwork" provider-name="Defiant">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
     </requires>
