@@ -1192,7 +1192,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-<addon id="script.module.mtb.vr8fg8b" version="2.0.5" name="The USS Defiant Module" provider-name="Defiant">
+<addon id="script.module.mtb.vr8fg8b" version="2.0.6" name="The USS Defiant Module" provider-name="Defiant">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4"/>
@@ -1211,9 +1211,6 @@ This is a Non-profit resource, organized solely for educational purposes which i
     <assets>
         <icon>icon.png</icon>
         <fanart></fanart>
-        <screenshot></screenshot>
-        <screenshot></screenshot>
-        <screenshot></screenshot>
     </assets>
     <news></news>
     </extension>
