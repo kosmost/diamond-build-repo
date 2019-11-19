@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.mtb.vr8fg8b" version="2.2" name="[COLOR aqua][B]The USS Defiant[/COLOR][/B]" provider-name="Defiant">
+<addon id="plugin.video.mtb.vr8fg8b" version="2.5.0" name="[B][COLOR aqua]The USS Defiant[/COLOR][/B]" provider-name="Defiant">
    <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.mtb.vr8fg8b" />
@@ -8,7 +8,7 @@
         <import addon="script.module.resolveurl" />
         <import addon="script.module.requests" />
         <import addon="script.module.metahandler" />
-		<import addon="script.module.diamondscrapers" version="0.0.1.82" />
+		<import addon="script.module.openscrapers" version="0.0.1.82" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="defiant.py">
         <provides>video</provides>
@@ -34,9 +34,9 @@
 		</menu>
 	</extension>	
     <extension point="xbmc.addon.metadata">
-		<summary lang="en">The USS Defiant Could Not Be Possible Without 13Clowns, Atreides, Exodus, Exodus Redux, Placenta, Michaelmyers, Resistance, Incursion or Yoda. Much Respect To The Devs That Came Before.</summary>
+		<summary lang="en">The USS Defiant.</summary>
 		<disclaimer lang="en">The authors of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-		<description lang="en">The USS Defiant Could Not Be Possible Without 13Clowns, Atreides, Exodus, Exodus Redux, Placenta, Michaelmyers, Resistance, Incursion or Yoda. Much Respect To The Devs That Came Before.</description>
+		<description lang="en">The USS Defiant.</description>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
     <assets>
