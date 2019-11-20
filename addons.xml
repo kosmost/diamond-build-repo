@@ -341,7 +341,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
   </extension>
 </addon>
 
-<addon id="plugin.video.movietheaterbutter.auto" version="4.16" name="[B][COLOR lime]Greased Lightning Movie Cinema[/COLOR][/B]" provider-name="Greased Lightning">
+<addon id="plugin.video.movietheaterbutter.auto" version="4.17" name="[B][COLOR lime]Greased Lightning Movie Cinema[/COLOR][/B]" provider-name="Greased Lightning">
    <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.movietheaterbutter.auto" />
@@ -1044,7 +1044,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-<addon id="script.artwork.movietheaterbutter.auto" version="9999.250" name="[B][COLORlime]Greased Lightning Artwork[/COLOR][/B]" provider-name="Greased Lightning">
+<addon id="script.artwork.movietheaterbutter.auto" version="9999.255" name="[B][COLORlime]Greased Lightning Artwork[/COLOR][/B]" provider-name="Greased Lightning">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
     </requires>
@@ -1143,7 +1143,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
   </extension>
 </addon>
 
-<addon id="script.metadata.movietheaterbutter.auto" version="9999.250" name="[B][COLORlime]Greased Lightning Metadata[/COLOR][/B]" provider-name="Greased Lightning">
+<addon id="script.metadata.movietheaterbutter.auto" version="9999.255" name="[B][COLORlime]Greased Lightning Metadata[/COLOR][/B]" provider-name="Greased Lightning">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
     </requires>
@@ -1237,7 +1237,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
   </extension>
 </addon>
 
-<addon id="script.module.diamondscrapers" name="[B][COLORlime]The Greased Lightning OpenScrapers Module[/COLOR][/B]" version="0.0.1.98h" provider-name="Addons4Kodi">
+<addon id="script.module.diamondscrapers" name="[B][COLORlime]The Greased Lightning OpenScrapers Module[/COLOR][/B]" version="0.0.1.98k" provider-name="Addons4Kodi">
     <requires>
         <import addon="xbmc.python" version="2.25.0" />
         <import addon="script.module.beautifulsoup4"/>
@@ -1306,7 +1306,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-<addon id="script.module.movietheaterbutter.auto" version="9999.251" name="[B][COLORlime]Greased Lightning Module[/COLOR][/B]" provider-name="Greased Lightning">
+<addon id="script.module.movietheaterbutter.auto" version="9999.255" name="[B][COLORlime]Greased Lightning Module[/COLOR][/B]" provider-name="Greased Lightning">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4"/>
