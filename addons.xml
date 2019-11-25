@@ -1339,7 +1339,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-<addon id="script.module.movietheaterbutter.auto" version="9999.256" name="[B][COLORlime]Greased Lightning Module[/COLOR][/B]" provider-name="Greased Lightning">
+<addon id="script.module.movietheaterbutter.auto" version="9999.257" name="[B][COLORlime]Greased Lightning Module[/COLOR][/B]" provider-name="Greased Lightning">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4"/>
@@ -1363,7 +1363,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
     </extension>
 </addon>
 
-<addon id="script.module.mtb.vr8fg8b" version="2.5.2" name="The USS Defiant Module" provider-name="Defiant">
+<addon id="script.module.mtb.vr8fg8b" version="2.5.3" name="The USS Defiant Module" provider-name="Defiant">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4"/>
