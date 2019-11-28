@@ -871,20 +871,6 @@ This is a Non-profit resource, organized solely for educational purposes which i
 </extension>
 </addon>
 
-<addon id="repository.Diamond-Secure-Puck-Repo" name="[COLOR crimson]D[COLOR silver]iamond Secure Repo - (This Repo Only For This Build)[/COLOR][/COLOR]" version="1.7" provider-name="Team Diamond">
-<extension point="xbmc.addon.repository" name="Diamond Secure Repo">
-<info compressed="false">https://raw.githubusercontent.com/bobbybark/diamond-puck-repo/master/addons.xml</info>
-<checksum>https://raw.githubusercontent.com/bobbybark/diamond-puck-repo/master/addons.xml.md5</checksum>
-<datadir zip="true">https://raw.githubusercontent.com/bobbybark/diamond-puck-repo/master/</datadir>
-</extension>
-<extension point="xbmc.addon.metadata">
-<summary lang="en">[COLOR crimson]D[COLOR silver]iamond Secure Repo - (This Repo Only For This Build)[/COLOR][/COLOR]</summary>
-<description lang="en">[COLOR crimson]D[COLOR silver]iamond Secure Repo - (This Repo Only For This Build)[/COLOR][/COLOR]</description>
-<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
-<platform>all</platform>
-</extension>
-</addon>
-
 <addon id="repository.Diamond-Superfavs-Repo" name="[COLOR crimson]D[COLOR silver]iamond Super Favourites Repo[/COLOR]" version="1.3" provider-name="Diamond Build">
 <extension point="xbmc.addon.repository" name="Diamond Wizard Repo">
 <dir>
