@@ -454,7 +454,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-<addon id="plugin.video.playrdsllink" name="[COLOR yellow]JEN of DEBRID[/COLOR]" version="2.3" provider-name="Diamond">
+<addon id="plugin.video.playrdsllink" name="[COLORyellow]JEN of DEBRID[/COLOR] [COLORaqua]preset for real debrid[/COLOR]" version="2.4" provider-name="Diamond">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
