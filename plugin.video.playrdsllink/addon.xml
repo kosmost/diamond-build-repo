@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.playrdsllink" name="[COLORyellow]JEN of DEBRID[/COLOR] [COLORaqua]preset for real debrid[/COLOR]" version="2.5" provider-name="Diamond">
+<addon id="plugin.video.playrdsllink" name="[COLORyellow]JEN of DEBRID[/COLOR] [COLORaqua]preset for real debrid[/COLOR]" version="2.6" provider-name="Diamond">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
