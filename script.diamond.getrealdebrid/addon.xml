@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.diamond.getrealdebrid" name="[B][COLOR yellow]Get[/COLOR] [COLOR blue]Real[/COLOR]-[COLOR orange]Debrid[/COLOR][/B]" version="999.999.003" provider-name="[COLOR red]F[COLOR white]T[COLOR blue]G[/COLOR]">
+<addon id="script.diamond.getrealdebrid" name="[B][COLOR yellow]Get[/COLOR] [COLOR blue]Real[/COLOR]-[COLOR orange]Debrid[/COLOR][/B]" version="999.999.004" provider-name="[COLOR red]F[COLOR white]T[COLOR blue]G[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
