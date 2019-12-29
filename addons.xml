@@ -469,7 +469,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-<addon id="plugin.video.playrdsllink" name="[COLORyellow]JEN of DEBRID[/COLOR] [COLORaqua]preset for real debrid[/COLOR]" version="2.6" provider-name="Diamond">
+<addon id="plugin.video.playrdsllink" name="[COLORyellow]JEN of DEBRID[/COLOR] + [COLOR grey][B]Real[COLOR blue]Debrid[/B][/COLOR]" version="2.7" provider-name="Diamond">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -486,8 +486,8 @@ This is a Non-profit resource, organized solely for educational purposes which i
     </extension>
     <extension point="xbmc.service" library="service.py" start="[login|startup]" />
     <extension point="xbmc.addon.metadata">
-<summary lang="en">[COLORaqua]JEN of DEBRID[/COLOR]</summary>
-<description lang="en">[COLORaqua]JEN of DEBRID[/COLOR] - Change Setting If You Wish</description>
+<summary lang="en">[COLORyellow]JEN of DEBRID[/COLOR] + [COLOR grey][B]Real[COLOR blue]Debrid[/B][/COLOR]</summary>
+<description lang="en">[COLORyellow]JEN of DEBRID[/COLOR] + [COLOR grey][B]Real[COLOR blue]Debrid[/B][/COLOR] - Change Setting If You Wish</description>
 <disclaimer lang="en">
 The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.
 The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
