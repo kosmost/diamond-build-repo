@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.getrealdebrid" name="[B][COLOR yellow]Get/Use[/COLOR] [COLOR blue]Real[/COLOR]-[COLOR orange]Debrid[/COLOR][/B]" version="2.2" provider-name="Diamond">
+<addon id="plugin.video.getrealdebrid" name="[B][COLOR yellow]Just a Cool Frontend For[/COLOR] - [COLOR blue]Real[/COLOR]-[COLOR orange]Debrid[/COLOR][/B]" version="2.8" provider-name="Diamond">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -8,6 +8,8 @@
         <import addon="script.module.requests" version="2.9.1" />
         <import addon="script.module.addon.common" version="2.0.0" />
         <import addon="script.module.xmltodict" version="0.9.0" />
+        <import addon="plugin.video.realdebird" version="1.0" />		
+        <import addon="script.diamond.getrealdebrid" version="2.7" />		
         <!--<import addon="script.module.web-pdb" version="1.0"/>-->
         <import addon="script.module.resolveurl" />
     </requires>
