@@ -435,7 +435,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
     </extension>
 </addon>
 
-<addon id="plugin.video.mtb.vr8fg8b" version="2.5.2" name="[B][COLOR aqua]The USS Defiant[/COLOR][/B]" provider-name="Defiant">
+<addon id="plugin.video.mtb.vr8fg8b" version="2.5.8" name="[B][COLOR aqua]The USS Defiant[/COLOR][/B]" provider-name="Defiant">
    <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.mtb.vr8fg8b" />
@@ -1318,7 +1318,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
   </extension>
 </addon>
 
-<addon id="script.module.diamondscrapers" name="[B][COLORlime]The Greased Lightning OpenScrapers Module[/COLOR][/B]" version="0.0.1.98k" provider-name="Addons4Kodi">
+<addon id="script.module.diamondscrapers" name="[B][COLORlime]The Greased Lightning OpenScrapers Module[/COLOR][/B]" version="0.0.1.99" provider-name="Addons4Kodi">
     <requires>
         <import addon="xbmc.python" version="2.25.0" />
         <import addon="script.module.beautifulsoup4"/>
@@ -1329,7 +1329,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
     </extension>
         <extension point="xbmc.addon.metadata">
             <platform>all</platform>
-            <summary lang="en">OpenScrapers Module 4 The Greased Lightning </summary>
+            <summary lang="en">Fork of OpenScrapers Module 4 The Greased Lightning</summary>
             <description>Scrape common video host for URL's to be playable in Kodi, simplifying addon development of video plugins requiring multi video hosts.</description>
                 <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
     <platform>all</platform>
