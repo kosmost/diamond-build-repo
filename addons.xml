@@ -299,22 +299,29 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.DiamondCinema" name="Diamond Cinema" version="1.2.90" provider-name="Team Diamond">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="plugin.video.youtube"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <language>en</language>
-    <summary lang="en">Watch Movies And Videos From YouTube</summary>
+<addon id="plugin.video.DiamondCinema" name="Diamond Cinema" version="1.2.91" provider-name="Team Diamond">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.universalscrapers" version="1.0.0" />
+        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
+        <import addon="script.module.resolveurl" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+<summary lang="en">Watch Movies And Videos From YouTube</summary>
     <description lang="en">Watch Movies And Videos From YouTube, [COLOR blue]Brought to you by Diamond Build[/COLOR]</description>
     <disclaimer lang="en">[COLOR blue]The author does not host any content, nor is he affiliated with any of the content providers.[/COLOR]
     </disclaimer>
-    <platform>all</platform>
-  </extension>
+<platform>all</platform>
+</extension>
 </addon>
 
 <addon id="plugin.video.f4mTester" name="f4mTester" version="2.7.2" provider-name="Shani">
