@@ -958,7 +958,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 </extension>
 </addon>
 
-<addon id="repository.Diamond-Wizard-Repo" name=".[COLORwhite]***[/COLOR][COLOR crimson]D[/COLOR][COLOR silver]iamond Build Repo (Primary Server, Main Repo)[/COLOR][COLORwhite]***[/COLOR]" version="4.0.0" provider-name="Diamond Build">
+<addon id="repository.Diamond-Wizard-Repo" name=".[COLORwhite]***[/COLOR][COLOR crimson]D[/COLOR][COLOR silver]iamond Build Repo (Primary Server, Main Repo)[/COLOR][COLORwhite]***[/COLOR]" version="4.1" provider-name="Diamond Build">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
@@ -1019,7 +1019,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-<addon id="repository.Diamond-Wizard-Repo2" name=".[COLORwhite]***[/COLOR][COLOR crimson]D[/COLOR][COLOR silver]iamond Build Repo (Secondary Server, Backup Repo)[/COLOR][COLORwhite]***[/COLOR]" version="4.0.0" provider-name="Diamond Build">
+<addon id="repository.Diamond-Wizard-Repo2" name=".[COLORwhite]***[/COLOR][COLOR crimson]D[/COLOR][COLOR silver]iamond Build Repo (Secondary Server, Backup Repo)[/COLOR][COLORwhite]***[/COLOR]" version="4.1" provider-name="Diamond Build">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
