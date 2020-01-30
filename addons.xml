@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id="kodi.binary.instance.inputstream" version="2.0.10" provider-name="Team Kodi">
+  <backwards-compatibility abi="2.0.7"/>
+  <requires>
+    <import addon="xbmc.core" version="0.1.0"/>
+  </requires>
+</addon>
+
 <addon id="plugin.program.advancedsettings" name="Easy Advanced Settings" version="0.8.9" provider-name="kinkin">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
