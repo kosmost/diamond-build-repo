@@ -148,7 +148,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.alphaquadrant" name="[B][COLOR lightseagreen]Alpha Quadrant - Sports[/COLOR][/B]" version="3.0" provider-name="SomeBody">
+<addon id="plugin.video.alphaquadrant" name="[B][COLOR lightseagreen]Alpha Quadrant - Sports[/COLOR][/B]" version="3.1" provider-name="SomeBody">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -181,7 +181,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.betaquadrant" name="[B][COLOR lightseagreen]Beta Quadrant - IPTV, 24.7, News[/COLOR][/B]" version="3.4" provider-name="SomeBody">
+<addon id="plugin.video.betaquadrant" name="[B][COLOR lightseagreen]Beta Quadrant - IPTV, 24.7, News[/COLOR][/B]" version="3.5" provider-name="SomeBody">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
