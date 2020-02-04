@@ -1439,6 +1439,27 @@ This is a Non-profit resource, organized solely for educational purposes which i
     </extension>
 </addon>
 
+<addon id="script.module.mutagen"
+       name="mutagen"
+       provider-name="quodlibet"
+       version="1.41.1">
+
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+    </requires>
+
+    <extension library="lib" point="xbmc.python.module"/>
+
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en_GB">Mutagen is a Python module to handle audio metadata.</summary>
+        <description lang="en_GB">Mutagen is a Python module to handle audio metadata</description>
+        <license>GPLv2</license>
+        <website>https://pypi.org/project/mutagen/</website>
+        <source>https://github.com/quodlibet/mutagen</source>
+    </extension>
+</addon>
+
 <addon id="script.module.nanscrapers" name="NaN Scrapers" version="0.5.51" provider-name="Team NaN">
         <requires>
                 <import addon="xbmc.python" version="2.1.0"/>
