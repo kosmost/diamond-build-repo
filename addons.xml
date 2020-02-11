@@ -1697,7 +1697,7 @@ Documentation: https://github.com/tamland/kodi-plugin-routing</description>
         </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver (No Indigo Install)" version="5.0.52" provider-name="tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver (no indigo install)" version="5.0.53" provider-name="tvaddons">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="plugin.video.youtube" optional="true" />
