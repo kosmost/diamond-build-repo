@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.Diamond-Metalliq-EIM" name="[COLOR crimson]D[COLOR silver]iamond EIM MetalliQ Repo (OpenInfo-OpenMeta)[/COLOR][/COLOR]" version="1.3" provider-name="Team Diamond">
+<addon id="repository.Diamond-Metalliq-EIM" name="[COLOR crimson]D[COLOR silver]iamond EIM MetalliQ Repo (OpenInfo-OpenMeta)[/COLOR][/COLOR] - Warning this will overwrite your OpenMeta/OpenInfo" version="1.6" provider-name="Team Diamond">
 <extension point="xbmc.addon.repository" name="Diamond Build (OpenMeta) Repository">
 <!-- Diamond Repository -->
 
@@ -16,8 +16,8 @@
 </dir>
 </extension>
 <extension point="xbmc.addon.metadata">
-<summary>Diamond Build (OpenMeta) Repository</summary>
-<description>OpenMeta and OpenInfo For Diamond Build.</description>
+<summary>Diamond Build (OpenMeta) Repository - Warning this will overwrite your OpenMeta and OpenInfo, Only difference will be Player Files come from my URL</summary>
+<description>OpenMeta and OpenInfo For Diamond Build - Warning this will overwrite your OpenMeta and OpenInfo, Only difference will be Player Files come from my URL</description>
 <disclaimer></disclaimer>
 <platform>all</platform>
 </extension>
