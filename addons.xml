@@ -238,7 +238,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.bigtoons" name="[COLOR aqua][B]Big Toons[/COLOR][/B]" version="1.9" provider-name="OTB">
+<addon id="plugin.video.bigtoons" name="[COLOR aqua][B]Big Toons[/COLOR][/B]" version="2.0" provider-name="OTB">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -370,7 +370,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.getrealdebrid" name="[B][COLOR yellow]Just a Cool Frontend For[/COLOR] - [COLOR blue]Real[/COLOR]-[COLOR orange]Debrid[/COLOR][/B]" version="3.1" provider-name="Diamond">
+<addon id="plugin.video.getrealdebrid" name="[B][COLOR yellow]Just a Cool Frontend For[/COLOR] - [COLOR blue]Real[/COLOR]-[COLOR orange]Debrid[/COLOR][/B]" version="3.2" provider-name="Diamond">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -558,7 +558,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
   </extension>
 </addon>
 
-<addon id="plugin.video.playrdsllink" name="[COLORyellow]JEN of DEBRID[/COLOR] + [COLOR grey][B]Real[COLOR blue]Debrid[/B][/COLOR]" version="3.0" provider-name="Diamond">
+<addon id="plugin.video.playrdsllink" name="[COLORyellow]JEN of DEBRID[/COLOR] + [COLOR grey][B]Real[COLOR blue]Debrid[/B][/COLOR]" version="3.1" provider-name="Diamond">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
