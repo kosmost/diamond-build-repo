@@ -172,11 +172,11 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.alphaquadrant" name="[B][COLOR lightseagreen]Alpha Quadrant - Sports[/COLOR][/B]" version="3.1" provider-name="SomeBody">
+<addon id="plugin.video.alphaquadrant" name="[B][COLOR lightseagreen]Alpha Quadrant - Sports[/COLOR][/B]" version="3.2" provider-name="SomeBody">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
-        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.python.koding.aio.alt" version="0.9.6.6" />
         <import addon="script.module.beautifulsoup" version="3.2.1" />
         <import addon="script.module.requests" version="2.9.1" />
         <import addon="script.module.addon.common" version="2.0.0" />
@@ -205,11 +205,11 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.betaquadrant" name="[B][COLOR lightseagreen]Beta Quadrant - IPTV, 24.7, News[/COLOR][/B]" version="3.7" provider-name="SomeBody">
+<addon id="plugin.video.betaquadrant" name="[B][COLOR lightseagreen]Beta Quadrant - IPTV, 24.7, News[/COLOR][/B]" version="3.8" provider-name="SomeBody">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
-        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.python.koding.aio.alt" version="0.9.6.6" />
         <import addon="script.module.beautifulsoup" version="3.2.1" />
         <import addon="script.module.requests" version="2.9.1" />
         <import addon="script.module.addon.common" version="2.0.0" />
@@ -238,11 +238,11 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.bigtoons" name="[COLOR aqua][B]Big Toons[/COLOR][/B]" version="2.0" provider-name="OTB">
+<addon id="plugin.video.bigtoons" name="[COLOR aqua][B]Big Toons[/COLOR][/B]" version="2.1" provider-name="OTB">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
-        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.python.koding.aio.alt" version="0.9.6.6" />
         <import addon="script.module.beautifulsoup" version="3.2.1" />
         <import addon="script.module.requests" version="2.9.1" />
         <import addon="script.module.addon.common" version="2.0.0" />
@@ -268,11 +268,11 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.deltaquadrant" name="[B][COLOR lightseagreen]Delta Quadrant - One Click[/COLOR][/B]" version="1.9" provider-name="SomeBody">
+<addon id="plugin.video.deltaquadrant" name="[B][COLOR lightseagreen]Delta Quadrant - One Click[/COLOR][/B]" version="2.0" provider-name="SomeBody">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
-        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.python.koding.aio.alt" version="0.9.6.6" />
         <import addon="script.module.beautifulsoup" version="3.2.1" />
         <import addon="script.module.requests" version="2.9.1" />
         <import addon="script.module.addon.common" version="2.0.0" />
@@ -303,12 +303,12 @@
 
 <addon id="plugin.video.destinyofborg"
 	   name="[COLOR aqua][B]Locutus[/COLOR][/B] [COLORlime][B](Debrid Only)[/COLOR][/B]"
-	   version="2.8"
+	   version="2.9"
 	   provider-name="Dark Child">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests"/>
-	<import addon="script.module.python.koding.aio" version="0.9.6.6" />
+	<import addon="script.module.python.koding.aio.alt" version="0.9.6.6" />
 	<import addon="script.module.resolveurl" version="5.0.00"/>
 	<import addon="script.common.plugin.cache" version="2.5.5"/>
 	<import addon="script.module.pyxbmct" version="1.1.4" />
@@ -330,11 +330,11 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.DiamondCinema" name="Diamond Cinema" version="1.2.91" provider-name="Team Diamond">
+<addon id="plugin.video.DiamondCinema" name="Diamond Cinema" version="1.3" provider-name="Team Diamond">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
-        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.python.koding.aio.alt" version="0.9.6.6" />
         <import addon="script.module.beautifulsoup" version="3.2.1" />
         <import addon="script.module.requests" version="2.9.1" />
         <import addon="script.module.addon.common" version="2.0.0" />
@@ -370,11 +370,11 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.getrealdebrid" name="[B][COLOR yellow]Just a Cool Frontend For[/COLOR] - [COLOR blue]Real[/COLOR]-[COLOR orange]Debrid[/COLOR][/B]" version="3.2" provider-name="Diamond">
+<addon id="plugin.video.getrealdebrid" name="[B][COLOR yellow]Just a Cool Frontend For[/COLOR] - [COLOR blue]Real[/COLOR]-[COLOR orange]Debrid[/COLOR][/B]" version="3.3" provider-name="Diamond">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
-        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.python.koding.aio.alt" version="0.9.6.6" />
         <import addon="script.module.beautifulsoup" version="3.2.1" />
         <import addon="script.module.requests" version="2.9.1" />
         <import addon="script.module.addon.common" version="2.0.0" />
@@ -558,11 +558,11 @@ This is a Non-profit resource, organized solely for educational purposes which i
   </extension>
 </addon>
 
-<addon id="plugin.video.playrdsllink" name="[COLORyellow]JEN of DEBRID[/COLOR] + [COLOR grey][B]Real[COLOR blue]Debrid[/B][/COLOR]" version="3.1" provider-name="Diamond">
+<addon id="plugin.video.playrdsllink" name="[COLORyellow]JEN of DEBRID[/COLOR] + [COLOR grey][B]Real[COLOR blue]Debrid[/B][/COLOR]" version="3.2" provider-name="Diamond">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
-        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.python.koding.aio.alt" version="0.9.6.6" />
         <import addon="script.module.beautifulsoup" version="3.2.1" />
         <import addon="script.module.requests" version="2.9.1" />
         <import addon="script.module.addon.common" version="2.0.0" />
@@ -833,11 +833,11 @@ For updates check the readme.
     </extension>
 </addon>
 
-<addon id="plugin.video.youtube.theater" name="Youtube Theater" version="2.2" provider-name="Diamond Build">
+<addon id="plugin.video.youtube.theater" name="Youtube Theater" version="2.3" provider-name="Diamond Build">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
-        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.python.koding.aio.alt" version="0.9.6.6" />
         <import addon="script.module.beautifulsoup" version="3.2.1" />
         <import addon="script.module.requests" version="2.9.1" />
         <import addon="script.module.addon.common" version="2.0.0" />
@@ -890,11 +890,11 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-<addon id="plugin.video.yttcaughtonvideo" name="[COLOR aqua][B]Caught On Video[/COLOR][/B]" version="1.1" provider-name="SomeBody">
+<addon id="plugin.video.yttcaughtonvideo" name="[COLOR aqua][B]Caught On Video[/COLOR][/B]" version="1.2" provider-name="SomeBody">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
-        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.python.koding.aio.alt" version="0.9.6.6" />
         <import addon="script.module.beautifulsoup" version="3.2.1" />
         <import addon="script.module.requests" version="2.9.1" />
         <import addon="script.module.addon.common" version="2.0.0" />
@@ -1307,33 +1307,6 @@ This is a Non-profit resource, organized solely for educational purposes which i
   </extension>
 </addon>
 
-<addon id="script.module.bybmodules"
-   name="BYB Modules"
-   version="0.0.2.4"
-   provider-name="BYB">
-  <requires>
-    <import addon="xbmc.python" version="2.7.13"/>
-    <import addon="script.module.python.koding.aio" version="0.0.1"/>
-    <import addon="script.module.resolveurl" version="5.0.07"/>
-    <import addon="script.module.dateutil" version="2.5.3"/>
-    <import addon="script.module.feedparser"/>
-    <import addon="script.module.beautifulsoup4" />
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Kodi python modules</summary>
-    <description lang="en"></description>
-    <disclaimer lang="en"></disclaimer>
-    <language></language>
-    <license>Creative Commons 4.0-NC-ND</license>
-    <forum></forum>
-    <website></website>
-    <news></news>
-    <source></source>
-  </extension>
-</addon>
-
 <addon id="script.module.cryptolib" name="Crypto Libraries" version="1.0.0" provider-name="Twilight0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1435,12 +1408,12 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-<addon id="script.module.movietheaterbutter.auto" version="9999.261" name="[B][COLORlime]Greased Lightning Module[/COLOR][/B]" provider-name="Greased Lightning">
+<addon id="script.module.movietheaterbutter.auto" version="9999.262" name="[B][COLORlime]Greased Lightning Module[/COLOR][/B]" provider-name="Greased Lightning">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4"/>
         <import addon="script.module.simplejson"/>
-        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.python.koding.aio.alt" version="0.9.6.6" />
         <import addon="script.module.requests" version="2.9.1" />
         <import addon="script.module.xmltodict" version="0.9.0" />
     </requires>
@@ -1459,12 +1432,12 @@ This is a Non-profit resource, organized solely for educational purposes which i
     </extension>
 </addon>
 
-<addon id="script.module.mtb.vr8fg8b" version="2.5.8" name="The USS Defiant Module" provider-name="Defiant">
+<addon id="script.module.mtb.vr8fg8b" version="2.5.9" name="The USS Defiant Module" provider-name="Defiant">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4"/>
         <import addon="script.module.simplejson"/>
-        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.python.koding.aio.alt" version="0.9.6.6" />
         <import addon="script.module.requests" version="2.9.1" />
         <import addon="script.module.xmltodict" version="0.9.0" />
     </requires>
@@ -1530,30 +1503,27 @@ This is a Non-profit resource, organized solely for educational purposes which i
         </extension>
 </addon>
 
-<addon id="script.module.python.koding.aio"
-   name="Python Koding AIO"
-   version="1.0"
-   provider-name="Total Revolution">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.urlresolver" version="1.2.0"/>
-    <import addon="script.module.requests" version="2.3.0"/>
-    <import addon="script.module.beautifulsoup" version="2.1.31"/>
-    <import addon="script.module.unidecode" version="0.4.16"/>
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Python Koding All In One</summary>
-    <description lang="en">Python Koding AIO contains a bunch of time saving modules that allows for quick and simple development.</description>
-    <disclaimer lang="en"></disclaimer>
-    <language></language>
-    <license>Creative Commons 4.0-NC-ND</license>
-    <forum>http://totalrevolution.tv/forum</forum>
-    <website>http://totalrevolution.tv</website>
-    <news>1.0 Stable release</news>
-    <source>https://github.com/totalrevolution/python-koding/tree/master/script.module.python.koding.aio</source>
-  </extension>
+<addon id="script.module.python.koding.aio.alt" name="Python Koding AIO Alternate" version="1.1" provider-name="Total Revolution">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.resolveurl" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.beautifulsoup" />
+        <import addon="script.module.unidecode" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Python Koding All In One</summary>
+        <description lang="en">Python Koding AIO contains a bunch of time saving modules that allows for quick and simple development. This is an alterrnate fork that uses ResolveURL instead of URL Resolver.</description>
+        <disclaimer lang="en"/>
+        <language/>
+        <license>Creative Commons 4.0-NC-ND</license>
+        <forum>http://totalrevolution.tv/forum</forum>
+        <website>http://totalrevolution.tv</website>
+        <news>1.0 Stable release</news>
+        <source>https://github.com/totalrevolution/python-koding/tree/master/script.module.python.koding.aio</source>
+    </extension>
 </addon>
 
 <addon id="script.module.python.requests" name="Python Requests" version="2.16.3" provider-name="Miovi Team">
