@@ -238,7 +238,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.bigtoons" name="[COLOR aqua][B]Big Toons[/COLOR][/B]" version="2.2" provider-name="OTB">
+<addon id="plugin.video.bigtoons" name="[COLOR aqua][B]Big Toons[/COLOR][/B]" version="2.3" provider-name="OTB">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -268,7 +268,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.deltaquadrant" name="[B][COLOR lightseagreen]Delta Quadrant - One Click[/COLOR][/B]" version="2.3" provider-name="SomeBody">
+<addon id="plugin.video.deltaquadrant" name="[B][COLOR lightseagreen]Delta Quadrant - One Click[/COLOR][/B]" version="2.4" provider-name="SomeBody">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
