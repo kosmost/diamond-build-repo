@@ -76,22 +76,21 @@
 	</extension>
 </addon>
 
-<addon id="plugin.program.diamond.favourites" name="Super [COLOR deepskyblue](Diamond)[/COLOR] Favourites" version="1.0.59.rus" provider-name="spoyser">
+<addon id="plugin.program.diamond.favourites" name="Super Favourites 4DB Wizard Safe" version="1.0.60b" provider-name="spoyser">
   <requires>
-    <import addon="xbmc.python" version="2.14.0"/>
-    <import addon="script.module.metahandler" optional="true" />
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.metahandler" optional="true" />
   </requires>
+
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video audio image executable</provides>
   </extension>
-  <extension point="xbmc.service" library="service.py" start="startup" />
 
+  <extension point="xbmc.pass" library="service.py" start="startup" />
 
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR red]WARNING[/COLOR] - Forked (Cloned) Super Favorites? Cloned So Build has it's own SF - Dont' modifi or delete content, will break build.</summary>
-    <summary lang="ru">Ваша мультимедийная библиотека.</summary>
-    <description lang="en">Forked (Cloned) - Super Favorites? Cloned So Build has it's own Super Favorites - if build installer choose to save his/her Super Favourites, Super (Diamond) Favorites will not be touched.[CR][CR]Super Favorites is a better way of managing your Kodi Favourites.[CR][CR]Virtually any menu item within Kodi can be added to Super Favorites, even from addons that don't normally provide this feature.[CR][CR]Super Favorites allows you to better manage your Kodi favourites, including the creation of sub-folders, into which your Kodi favourites can then be copied or moved into.[CR][CR]This allows you to create you own custom addon with just the best bits of your favourite addons. Search your favourite addons, play your favourite music, read your favourite comic strips, select your favourite playlists, browse your favourite movies, listen to your favourite radio stations, watch your favourite cartoons, the possibilities are endless, all from within one easy to use addon.</description>
-    <description lang="ru">Forked (Cloned) - Супер Избранное? [CR] [CR] Супер Избранное - лучший способ управлять вашими фаворитами Коди. [CR] [CR] Super Favorites - лучший способ управления вашими фаворитами Kodi. CR] [CR] Практически любой пункт меню в Kodi может быть добавлен в Супер Избранное, даже из аддонов, которые обычно не предоставляют эту функцию. [CR] [CR] Супер Избранное позволяет вам лучше управлять любимыми Kodi, включая создание из подпапок, в которые ваши копии Kodi могут быть скопированы или перемещены. [CR] [CR] Это позволяет вам создать собственный пользовательский аддон с лучшими битами ваших любимых дополнений. Поиск любимых дополнений, просмотр любимой музыки, просмотр любимых комиксов, выбор любимых списков воспроизведения, просмотр любимых фильмов, прослушивание любимых радиостанций, просмотр ваших любимых мультфильмов, возможности бесконечные, все из одного простого в использовании добавить.</description>
+    <summary lang="en">Put all your favourites bits of all your favourites addons into one easy to use addon.</summary>
+    <description lang="en">Super Favourites 4DB - Wizard Safe Forked By Diamond Build, is a better way of managing your Kodi Favourites.[CR][CR]Virtually any menu item within Kodi can be added to Super Favourites 4DB 4DB, even from addons that don't normally provide this feature.[CR][CR]Super Favourites 4DB 4DB allows you to better manage your Kodi favourites, including the creation of sub-folders, into which your Kodi favourites can then be copied or moved into.[CR][CR]This allows you to create you own custom addon with just the best bits of your favourite addons. Search your favourite addons, play your favourite music, read your favourite comic strips, select your favourite playlists, browse your favourite movies, listen to your favourite radio stations, watch your favourite cartoons, the possibilities are endless, all from within one easy to use addon.</description>
     <platform>all</platform>
     <language>en</language>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
@@ -99,43 +98,14 @@
     <website></website>
     <source>https://github.com/spoyser/spoyser-repo/tree/master/plugin.program.diamond.favourites</source>
     <email>seanpoyser at gmail.com</email>
-
-    <news>
-1.0.56: 19th February 2017
-    - added optional initial path, and include play folder parameters to quicklaunch script
-        usage: xbmc.runscript(special://home/addons/plugin.program.diamond.favourites/quicklaunch.py,folder1/folder2,True)
-    - fixed playlist parsing
-    - fixed quicklaunch in Krypton
-    - fixed launching ExecuteBuiltin types from the quick launch dialog
-    - fixed launching playable items added from FileManager
-    - fixed launching playable items from widgets
-    - various other fixes due to changes in Krypton
-    </news>
-
   </extension>
 
-
-  <extension point="kodi.context.item">
-    <menu id="kodi.core.main">
-
-      <item library="capture.py">
-        <label>$ADDON[plugin.program.diamond.favourites 30002]</label>
-        <visible>!IsEmpty(Window(Home).Property(SF_STD_CONTEXTMENU_ENABLED)) + !StringCompare(Container.PluginName,plugin.program.diamond.favourites)</visible>
+  <extension point="kodi.context.item" library="capture.py">
+      <item>
+        <label>30000</label>
+        <visible>true</visible>
       </item>
-
-      <item library="menu_addtofaves.py">
-        <label>$ADDON[plugin.program.diamond.favourites 30047]</label>
-        <visible>!IsEmpty(Window(Home).Property(SF_STD_ADDTOFAVES_ENABLED)) + !StringCompare(Container.PluginName,plugin.program.diamond.favourites)</visible>
-      </item>
-
-      <item library="menu_download.py">
-        <label>$ADDON[plugin.program.diamond.favourites 30259]</label>
-        <visible>!IsEmpty(Window(Home).Property(SF_STD_DOWNLOAD_ENABLED)) + Player.IsInternetStream</visible>
-      </item>
-
-    </menu>
-  </extension>
-
+    </extension>
 </addon>
 
 <addon id="plugin.program.diamondwizard" name="[COLOR yellow]DIA[/COLOR][COLOR blue]MOND[/COLOR][COLOR red] BUILD [/COLOR][COLOR goldenrod]WIZARD[/COLOR] [COLOR yellow](New)[/COLOR]" version="4.42" provider-name="SomeBody">
