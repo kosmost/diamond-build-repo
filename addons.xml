@@ -142,7 +142,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.alphaquadrant" name="[B][COLOR lightseagreen]Alpha Quadrant - Sports[/COLOR][/B]" version="3.2" provider-name="SomeBody">
+<addon id="plugin.video.alphaquadrant" name="[B][COLOR lightseagreen]Alpha Quadrant - Sports[/COLOR][/B]" version="3.4" provider-name="SomeBody">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -175,7 +175,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.betaquadrant" name="[B][COLOR lightseagreen]Beta Quadrant - IPTV, 24.7, News[/COLOR][/B]" version="3.8" provider-name="SomeBody">
+<addon id="plugin.video.betaquadrant" name="[B][COLOR lightseagreen]Beta Quadrant - IPTV, 24.7, News[/COLOR][/B]" version="3.9" provider-name="SomeBody">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -208,7 +208,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.bigtoons" name="[COLOR aqua][B]Big Toons[/COLOR][/B]" version="3.2" provider-name="OTB">
+<addon id="plugin.video.bigtoons" name="[COLOR aqua][B]Big Toons[/COLOR][/B]" version="3.4" provider-name="OTB">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
