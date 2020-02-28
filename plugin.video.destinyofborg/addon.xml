@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.destinyofborg"                                                                                                                                    
 	   name="[COLOR aqua][B]Locutus[/COLOR][/B] [COLORlime][B](Debrid Only)[/COLOR][/B]"                                                 
-	   version="2.9"                                                                                                                                        
+	   version="3.0"                                                                                                                                        
 	   provider-name="Dark Child">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -23,7 +23,7 @@
   <extension point="xbmc.service" library="service.py" start="startup" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Fork of Destiny</summary>
-    <description lang="en">Destiny and 7 of 9 have been united. Tweaked Version by DaB.</description>
+    <description lang="en">Destiny and 7 of 9 Have Been United..</description>
     <platform>all</platform>
   </extension>
 </addon>
