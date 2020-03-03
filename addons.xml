@@ -238,7 +238,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.deltaquadrant" name="[B][COLOR lightseagreen]Delta Quadrant - One Click[/COLOR][/B]" version="3.3" provider-name="SomeBody">
+<addon id="plugin.video.deltaquadrant" name="[B][COLOR lightseagreen]Delta Quadrant - One Click[/COLOR][/B]" version="3.4" provider-name="SomeBody">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
