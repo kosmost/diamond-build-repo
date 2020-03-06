@@ -1437,7 +1437,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
     </extension>
 </addon>
 
-<addon id="script.module.mtb.vr8fg8b" version="99.2.6.5" name="The USS Defiant Module" provider-name="Defiant">
+<addon id="script.module.mtb.vr8fg8b" version="99.2.6.6" name="The USS Defiant Module" provider-name="Defiant">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4"/>
