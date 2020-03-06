@@ -273,7 +273,7 @@
 
 <addon id="plugin.video.destinyofborg"
 	   name="[COLOR aqua][B]Locutus[/COLOR][/B] [COLORlime][B](Debrid Only)[/COLOR][/B]"
-	   version="3.1"
+	   version="3.2"
 	   provider-name="Dark Child">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
