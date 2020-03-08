@@ -428,6 +428,21 @@ This is a Non-profit resource, organized solely for educational purposes which i
   </extension>
 </addon>
 
+<addon id="plugin.video.motherless.Diamondize"
+	   name="motherless"
+	   version="1.0.2"
+	   provider-name="motherless">
+  <extension point="xbmc.python.pluginsource"
+			 library="default.py">
+    	<provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Adult(18+) videos from motherless.com</summary>
+    <description>Adult(18+) videos from motherless.com</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.movietheaterbutter.auto" version="4.17" name="[B][COLOR lime]Greased Lightning Movie Cinema[/COLOR][/B]" provider-name="Greased Lightning">
    <requires>
         <import addon="xbmc.python" version="2.19.0" />
@@ -651,6 +666,57 @@ This is a Non-profit resource, organized solely for educational purposes which i
 </addon>
 
 <addon
+	id="plugin.video.reddit_viewer"
+	name="Reddit Viewer"
+	version="3.5.0"
+	provider-name="gedisony">
+	<requires>
+		<import addon="xbmc.python"                     version="2.24.0"                />
+		<import addon="script.module.requests"          version="1.1.0"/>
+		<import addon="script.module.youtube.dl"        version="16.521.0"/>
+	</requires>
+
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Reddit viewer for Kodi</summary>
+		<language></language>
+		<description lang="en">Reddit is a social news and entertainment website where users share and vote on content they find funny and interesting.[CR]View Reddit video and images on Kodi[CR][CR]Original by: AddonscriptorDE and rasjani [CR]Forked from https://github.com/rasjani/plugin.video.reddit_tv[CR]</description>
+		<website>http://www.reddit.com</website>
+		<source>https://github.com/gedisony/plugin.video.reddit_viewer</source>
+		<forum>http://forum.kodi.tv/showthread.php?tid=280388</forum>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<email>gediso+ny at gmail dot com</email>
+		<news>
+v3.3.3  (2017-3-26)
+    - Multi-threaded parsing of reddit posts
+v3.3.2  (2017-3-22)
+    - Save/Unsave posts to your reddit account
+v3.2.0  (2017-2-25)
+    - Open link in default os web browser
+    - Customize context menu
+v3.1.1  (2017-2-10)
+    - Retrieve subreddit info when adding or editing them on initial screen
+v3.1.0
+    - update fanart
+    - fix nsfw filter
+v3.0.7
+    - add option to repeat gif playback
+v3.0.5
+    - include check if urlresolver can play a posted link
+		</news>
+		<disclaimer>This add-on is not published nor endorsed by reddit inc.</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>resources/r_fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
+
+<addon
   id="plugin.video.SportsDevil"
   version="2017.11.16.NL1116"
   name="sportsdevil"
@@ -772,7 +838,7 @@ For updates check the readme.
     </extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="6.6.0" provider-name="anxdpanic, bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="6.5.2" provider-name="anxdpanic, bromix">
     <requires>
         <import addon="xbmc.python" version="2.20.0"/>
         <import addon="script.module.six" version="1.11.0"/>
@@ -786,20 +852,15 @@ For updates check the readme.
     <extension point="xbmc.python.module" library="resources/lib/"/>
     <extension point="xbmc.addon.metadata">
         <news>
-[add] 'Play (Ask for quality)' context menu
-[add] search by channel or playlist id
-[add] hide_folders, hide_playlists, hide_search, and hide_live to /channel/&lt;channel_id&gt;/ end-point
-    - ie. plugin://plugin.video.youtube/channel/UC4PooiX37Pld1T8J5SYT-SQ/?hide_folders=true will hide all folders(Playlists, Search, and Live) in the channel listing
-[fix] playback for some videos (ie. music videos)
-[fix] playback of some videos with no adaptive video streams
-[fix] don't update watch history when incognito/screensaver/live |contrib: regseb|
-[fix] search prompting for input after video playback or refresh
-[lang] el_gr strings |contrib: twilight0|
-[lang] es_es strings |contrib: roliverosc|
-[lang] pt_br strings |contrib: MediaBrasil|
-[lang] cs_cz strings |contrib: llzn.cz|
-[lang] it_it strings |contrib: SebastianoPistore|
-[lang] de_de strings |contrib: tweimer|
+6.5.2
+[fix] playback (No streams found)
+[fix] missing metadata
+[fix] ended live streams not using mpeg-dash when enabled
+[fix] subscriptions not showing latest videos
+[upd] simplify youtube_resolver regex |contrib: Twilight0|
+[lang] de_de strings |contrib: TehTux|
+[lang] pl_pl strings |contrib: drrak|
+[lang] nl_nl strings |contrib: Markman-B|
         </news>
         <assets>
             <icon>icon.png</icon>
@@ -840,16 +901,10 @@ For updates check the readme.
         <description lang="nb_NO">YouTube er en av verdens største nettsider for videodeling.</description>
         <summary lang="ko_KR">유튜브 플러그인</summary>
         <description lang="ko_KR">유튜브는 세상에서 가장 큰 동영상 공유 사이트 중의 하나입니다.</description>
-        <summary lang="cs_CZ">Plugin pro YouTube</summary>
-        <description lang="cs_CZ">YouTube je jedna z největších webových stránek světa sdílející video.</description>
-        <disclaimer lang="cs_CZ">Tento plugin není schválen společností Google</disclaimer>
-        <summary lang="tr_TR">YouTube için eklenti</summary>
-        <description lang="tr_TR">YouTube, dünya üzerindeki en büyük video paylaşma platformlarından birisidir</description>
-        <disclaimer lang="tr_TR">Bu eklenti Google tarafından üretilmemiştir</disclaimer>
         <language></language>
         <platform>all</platform>
         <license>GPL-2.0-only</license>
-        <forum>https://forum.kodi.tv/showthread.php?tid=348464</forum>
+        <forum>https://forum.kodi.tv/showthread.php?tid=325740</forum>
         <website>https://www.youtube.com</website>
         <email>ytplugin at datanet dot ws</email>
         <source>https://github.com/jdf76/plugin.video.youtube</source>
@@ -1317,6 +1372,265 @@ This is a Non-profit resource, organized solely for educational purposes which i
     </extension>
 </addon>
 
+<addon id="script.module.7of9-goldenage" name="[B][COLOR gold]Golden Age - 7of9 Module[/COLOR][/B]" version="2.8" provider-name="Chuck U Farley">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.resolveurl" version="5.0.0.5" />
+    <import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Timeless Classics from The Golden Age</summary>
+    <description lang="en">Added search and photo</description>
+    <disclaimer lang="en">The author does not host or own any content found within this Addon. The Author is not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.module.7of9-live" name="7of9 live (TVtap)" version="2.3" provider-name="7of9">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.requests-cache" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en_gb">Cloned for 7of9 users from RACC TvTap Module. All credit must go to anyone involved in the Original Code</summary>
+    <description lang="en_gb">Module for TvTap APK</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source>Requires Kodi 18 Leia</source>
+  </extension>
+</addon>
+
+<addon id="script.module.7of9-motherless"
+	   name="motherless - 7of9 Module"
+	   version="1.0.2c"
+	   provider-name="motherless">
+  <extension point="xbmc.python.pluginsource"
+			 library="default.py">
+    	<provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Adult(18+) videos from motherless.com</summary>
+    <description>Adult(18+) videos from motherless.com</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.module.7of9-my.apple_trailers" version="2.0.0c" name="My Apple Trailers - 7of9 Module" provider-name="tknorris">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.tknorris.shared" version="0.0.23"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>all</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Browse and Play Trailers from the Apple iTunes Website</summary>
+        <description>Cloned for 7of9, Browse and Play Trailers from Apple iTunes Website. (Forked from the original ITunes Trailer addon by dersphere)</description>
+        <platform>all</platform>
+        <website>http://tvaddons.ag/</website>
+		<forum>http://forums.tvaddons.ag/forums/180-TKNORRIS-RELEASE-REPOSITORY</forum>
+	</extension>
+</addon>
+
+<addon id="script.module.7of9-pirateslife4me" name="A Pirate's Life for Me - 7of9 Module" version="1.3" provider-name="SomeBody">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+	<import addon="script.video.F4mProxy" />
+	<import addon="script.module.resolveurl" version="2.2.0"/>
+    <import addon="script.module.moss"/>
+	<import addon="script.module.beautifulsoup4" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">The Pirate Bay and MTB Torrent Search Powered by Real-Debrid.</summary>
+    <description lang="en">The Pirate Bay and MTB Torrent Search Powered by Real-Debrid With Top Trending Movies.</description>
+	<disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.module.7of9-swiftstreamz" name="7of9 Swift Streamz 1" version="2.2b" provider-name="RACC">
+  <requires>
+    <import addon="script.module.requests" />
+    <import addon="script.module.requests-cache" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">Cloned for 7of9 users from RACC SwiftStreamz Module. All credit must go to anyone involved in the Original Code</summary>
+    <description lang="en_gb">Module for SwiftStreamz APK</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source>Requires Kodi 18 Leia</source>
+  </extension>
+</addon>
+
+<addon id="script.module.7of9-swiftstreamz2" name="7of9 Swift Streamz 2" version="2.2b" provider-name="RACC">
+  <requires>
+    <import addon="script.module.requests" />
+    <import addon="script.module.requests-cache" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">Cloned for 7of9 users from RACC SwiftStreamz Module. All credit must go to anyone involved in the Original Code</summary>
+    <description lang="en_gb">Module for SwiftStreamz APK</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source>Requires Kodi 18 Leia</source>
+  </extension>
+</addon>
+
+<addon id="script.module.7of9-tubi" name="TUBITV" provider-name="mhancoc7" version="0.1.8c">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.m7lib" version="0.1.0" />
+    </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Tubi</summary>
+        <description>Please visit [COLOR lightskyblue]https://www.tvaddons.co[/COLOR] for addon support! Tubi!</description>
+        <platform>all</platform>
+        <forum>https://www.tvaddons.co/forums/</forum>
+        <website>https://www.tvaddons.co/</website>
+    </extension>
+</addon>
+
+<addon id="script.module.7of9-uwc"
+       name="Ultimate Whitecream - 7of9 Module"
+       version="1.1.91d"
+       provider-name="Whitecream, holisticdioxide">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.resolveurl" version="5.0.00"/>
+        <import addon="script.module.resolveurl.xxx" version="2.0.01"/>
+        <import addon="script.video.F4mProxy" version="2.5.7" />
+		<import addon="script.module.requests" />
+
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>all</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>GPL 2.0</license>
+        <summary lang="en">Watch [COLOR red][B]ADULT[/B][/COLOR] Movies with Ultimate WhiteCream</summary>
+        <description lang="en">Watch [COLOR red][B]ADULT[/B][/COLOR] Movies with Ultimate WhiteCream</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider. DMCA - holisticdioxide@protonmail.com</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+        <news>[B]Version 1.1.91[/B]
+Fixed: Animeid Hentai
+Fixed: XXX Streams(eu) Next Button
+Fixed: Downloads on many sites
+</news>
+    </extension>
+</addon>
+
+<addon
+  id="script.module.7of9-videodevil"
+  version="1.7.197b"
+  name="VideoDevil - 7of9 Module"
+  provider-name="xbmc-adult">
+  <requires>
+   <import addon="xbmc.python" version="2.14.0"/>
+  </requires>
+  <extension
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Play videos from different adult streaming sites</summary>
+    <description>This addon plays videos from YouPorn, Tube8, Boysfood, MoviesAnd, PornoTube, xHamster, KeezMovies and some other adult streaming sites. It contains explicit adult material. You may only view this addon if you are at least 18 years of age, or at least the age of majority in the jurisdiction where you reside or from which you access this content. If you do not meet these requirements, then you do not have permission to use this addon. </description>
+    <disclaimer>The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.module.7of9-worldtv" name="7of9 World Tv" version="1.7" provider-name="7of9">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0"/>
+    <import addon="script.module.pycryptodome" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.kodi-six" />
+    <import addon="script.module.future" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en_gb">This module has been cloned from the Racc TvOne add-on. All credit to him.</summary>
+    <description lang="en_gb">7of9</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GPL-3.0</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
+<addon id="script.module.7of9-you.jizz"
+       name="YouJizz.com - 7of9 Module"
+       version="1.0.23b"
+       provider-name="xbmc-adult">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.future"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>all</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>GPL 2.0</license>
+        <summary lang="en">YouJizz.com</summary>
+        <description lang="en">****ADULT CONTENT***** Watch erotic and sexy videos from YouJizz.com</description>
+    </extension>
+</addon>
+
 <addon id="script.module.bottle" name="Bottle" version="0.12.8" provider-name="Team Kodi">
   <requires>
     <import addon="xbmc.python" version="2.19.0"/>
@@ -1341,6 +1655,26 @@ This is a Non-profit resource, organized solely for educational purposes which i
     <source>https://github.com/Twilight0/script.module.cryptolib</source>
     <platform>all</platform>
     <license>MIT</license>
+  </extension>
+</addon>
+
+<addon id="script.module.diamondcinema" name="Diamond Cinema Scrapers - 7of9 Module" version="1.5" Eprovider-name="Diamond Build">
+  <requires>
+	<import addon="script.module.requests" />
+    <import addon="script.module.beautifulsoup4" />
+	<import addon="script.video.F4mProxy" />
+	<import addon="script.module.resolveurl" version="5.0.00"/>
+    <import addon="xbmc.python" version="2.19.0" />
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Diamond Cinema Dependency Addon</summary>
+    <description lang="en">Diamond Cinema Dependency Addon</description>
+	<disclaimer lang="en">Diamond Cinema Dependency Addon</disclaimer>
+    <platform>all</platform>
   </extension>
 </addon>
 
@@ -1399,6 +1733,19 @@ This is a Non-profit resource, organized solely for educational purposes which i
     <summary lang="en">Resolve common live video host URL's to be playable in XBMC/Kodi + find links embeded in sites.</summary>
     <description lang="en"></description>
   </extension>
+</addon>
+
+<addon id="script.module.m7lib" name="m7lib" provider-name="mhancoc7" version="0.8.0">
+    <requires>
+        <import addon="xbmc.python" version="2.20.0" />
+        <import addon="plugin.video.youtube" version="5.5.1" />
+    </requires>
+    <extension library="lib" point="xbmc.python.module" />
+    <extension point="xbmc.addon.metadata">
+        <description lan="en">mhancoc7 Common Functions</description>
+        <summary lang="en">mhancoc7 Common Functions</summary>
+        <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="script.module.moss" name="Moss Module" version="1.00.005" provider-name="Biglad + Echo Coder">
@@ -1536,6 +1883,26 @@ This is a Non-profit resource, organized solely for educational purposes which i
         <fanart>fanart.jpg</fanart>
     </assets>
     </extension>
+</addon>
+
+<addon id="script.module.pantypirates" name="[COLOR aqua][B]Panty Pirates Module[/COLOR] [COLORlime](Should Work In UK)[/COLOR][/B] [COLOR gold](Real-Debrid Only)[/COLOR]" version="1.3" provider-name="SomeBody">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+	<import addon="script.video.F4mProxy" />
+	<import addon="script.module.resolveurl" version="2.2.0"/>
+    <import addon="script.module.moss"/>
+	<import addon="script.module.beautifulsoup4" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Panty Pirates - Adult Videos - Powered by Real-Debrid.</summary>
+    <description lang="en">Panty Pirates - Adult Videos - Powered by Real-Debrid.</description>
+	<disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="script.module.python.koding.aio.alt" name="Python Koding AIO Alternate" version="1.1" provider-name="Total Revolution">
@@ -1720,6 +2087,61 @@ Documentation: https://github.com/tamland/kodi-plugin-routing</description>
     </extension>
 </addon>
 
+<addon id="script.module.uwc"
+       name="Ultimate Whitecream"
+       version="1.1.91b"
+       provider-name="Whitecream, holisticdioxide">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.resolveurl" version="5.0.00"/>
+        <import addon="script.module.resolveurl.xxx" version="2.0.01"/>
+        <import addon="script.video.F4mProxy" version="2.5.7" />
+		<import addon="script.module.requests" />
+
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>all</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>GPL 2.0</license>
+        <summary lang="en">Watch [COLOR red][B]ADULT[/B][/COLOR] Movies with Ultimate WhiteCream</summary>
+        <description lang="en">Watch [COLOR red][B]ADULT[/B][/COLOR] Movies with Ultimate WhiteCream</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider. DMCA - holisticdioxide@protonmail.com</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+        <news>[B]Version 1.1.91[/B]
+Fixed: Animeid Hentai
+Fixed: XXX Streams(eu) Next Button
+Fixed: Downloads on many sites
+</news>
+    </extension>
+</addon>
+
+<addon
+  id="script.module.videodevil"
+  version="1.7.197"
+  name="VideoDevil"
+  provider-name="xbmc-adult">
+  <requires>
+   <import addon="xbmc.python" version="2.14.0"/>
+  </requires>
+  <extension
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Play videos from different adult streaming sites</summary>
+    <description>This addon plays videos from YouPorn, Tube8, Boysfood, MoviesAnd, PornoTube, xHamster, KeezMovies and some other adult streaming sites. It contains explicit adult material. You may only view this addon if you are at least 18 years of age, or at least the age of majority in the jurisdiction where you reside or from which you access this content. If you do not meet these requirements, then you do not have permission to use this addon. </description>
+    <disclaimer>The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="script.module.web-pdb"
        name="Web-PDB"
        version="1.4.3"
@@ -1756,6 +2178,26 @@ Documentation: https://github.com/tamland/kodi-plugin-routing</description>
     <language />
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="script.module.you.jizz"
+       name="YouJizz.com"
+       version="1.0.23"
+       provider-name="xbmc-adult">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.future"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>all</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>GPL 2.0</license>
+        <summary lang="en">YouJizz.com</summary>
+        <description lang="en">****ADULT CONTENT***** Watch erotic and sexy videos from YouJizz.com</description>
+    </extension>
 </addon>
 
 <addon id="script.module.youtube.dl" name="youtube-dl Control" version="18.1107.0" provider-name="Rick Phillips (ruuk)">
