@@ -491,7 +491,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
   </extension>
 </addon>
 
-<addon id="plugin.video.movietheaterbutter.auto" version="4.17" name="[B][COLOR lime]Greased Lightning Movie Cinema[/COLOR][/B]" provider-name="Greased Lightning">
+<addon id="plugin.video.movietheaterbutter.auto" version="4.18" name="[B][COLOR lime]Greased Lightning Movie Cinema[/COLOR][/B]" provider-name="Greased Lightning">
    <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.movietheaterbutter.auto" />
@@ -506,25 +506,6 @@ This is a Non-profit resource, organized solely for educational purposes which i
         <provides>video</provides>
     </extension>
     <extension point="xbmc.service" library="service.py" start="startup" />
-	<extension point="kodi.context.item">
-		<menu id="kodi.core.main">
-			<menu>
-				<label>Greased Lightning</label>
-				<item library="context_toggle.py">
-					<label>Preferred toggle</label>
-					<visible>!System.HasAddon(context.movietheaterbutter.auto) + !Skin.HasSetting(Toggling)</visible>
-				</item>
-				<item library="context_movie.py">
-					<label>$ADDON[plugin.video.movietheaterbutter.auto 30602]</label>
-					<visible>StringCompare(ListItem.dbtype,movie) + SubString(ListItem.Path, plugin.video.movietheaterbutter.auto)</visible>
-				</item>
-				<item library="context_tvshow.py">
-					<label>$ADDON[plugin.video.movietheaterbutter.auto 30602]</label>
-					<visible>StringCompare(ListItem.dbtype,tvshow) + SubString(ListItem.Path, plugin.video.movietheaterbutter.auto)</visible>
-				</item>
-			</menu>
-		</menu>
-	</extension>
     <extension point="xbmc.addon.metadata">
 		<summary lang="en">Greased Lightning.</summary>
 		<disclaimer lang="en">The authors of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
@@ -1690,7 +1671,7 @@ Fixed: Downloads on many sites
   </extension>
 </addon>
 
-<addon id="script.module.diamondscrapers" name="[B][COLORlime]The Greased Lightning OpenScrapers Module[/COLOR][/B]" version="0.0.1.102" provider-name="Addons4Kodi">
+<addon id="script.module.diamondscrapers" name="[B][COLORlime]The Greased Lightning OpenScrapers Module[/COLOR][/B]" version="0.0.1.104" provider-name="Addons4Kodi">
     <requires>
         <import addon="xbmc.python" version="2.25.0" />
         <import addon="script.module.beautifulsoup4"/>
