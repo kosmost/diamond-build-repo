@@ -539,7 +539,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
     </extension>
 </addon>
 
-<addon id="plugin.video.mtb.vr8fg8b" version="99.2.6.5" name="[B][COLOR aqua]The USS Defiant[/COLOR][/B]" provider-name="Defiant">
+<addon id="plugin.video.mtb.vr8fg8b" version="99.2.6.7" name="[B][COLOR aqua]The USS Defiant[/COLOR][/B]" provider-name="Defiant">
    <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.mtb.vr8fg8b" />
@@ -554,25 +554,6 @@ This is a Non-profit resource, organized solely for educational purposes which i
         <provides>video</provides>
     </extension>
     <extension point="xbmc.service" library="service.py" start="startup" />
-	<extension point="kodi.context.item">
-		<menu id="kodi.core.main">
-			<menu>
-				<label>The USS Defiant</label>
-				<item library="context_toggle.py">
-					<label>Preferred toggle</label>
-					<visible>!System.HasAddon(context.mtb.vr8fg8b) + !Skin.HasSetting(Toggling)</visible>
-				</item>
-				<item library="context_movie.py">
-					<label>$ADDON[plugin.video.mtb.vr8fg8b 30602]</label>
-					<visible>StringCompare(ListItem.dbtype,movie) + SubString(ListItem.Path, plugin.video.mtb.vr8fg8b)</visible>
-				</item>
-				<item library="context_tvshow.py">
-					<label>$ADDON[plugin.video.mtb.vr8fg8b 30602]</label>
-					<visible>StringCompare(ListItem.dbtype,tvshow) + SubString(ListItem.Path, plugin.video.mtb.vr8fg8b)</visible>
-				</item>
-			</menu>
-		</menu>
-	</extension>
     <extension point="xbmc.addon.metadata">
 		<summary lang="en">The USS Defiant.</summary>
 		<disclaimer lang="en">The authors of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
@@ -1815,7 +1796,7 @@ Fixed: Downloads on many sites
     </extension>
 </addon>
 
-<addon id="script.module.mtb.vr8fg8b" version="99.2.6.6" name="The USS Defiant Module" provider-name="Defiant">
+<addon id="script.module.mtb.vr8fg8b" version="99.2.6.7" name="The USS Defiant Module" provider-name="Defiant">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4"/>
