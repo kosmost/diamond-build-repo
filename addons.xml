@@ -1784,7 +1784,7 @@ Fixed: Downloads on many sites
 	</extension>
 </addon>
 
-<addon id="script.module.movietheaterbutter.auto" version="9999.264" name="[B][COLORlime]Greased Lightning Module[/COLOR][/B]" provider-name="Greased Lightning">
+<addon id="script.module.movietheaterbutter.auto" version="9999.265" name="[B][COLORlime]Greased Lightning Module[/COLOR][/B]" provider-name="Greased Lightning">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4"/>
