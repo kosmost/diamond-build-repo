@@ -319,9 +319,9 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.destinyofborg"
-	   name="[COLOR aqua][B]Locutus[/COLOR][/B] [COLORlime][B](Debrid Only)[/COLOR][/B]"
-	   version="3.3"
+<addon id="plugin.video.destinyoflocutus"
+	   name="[COLOR aqua][B]Locutus (New Version)[/COLOR][/B] [COLORlime][B](Debrid Only)[/COLOR][/B]"
+	   version="1.0"
 	   provider-name="Dark Child">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
