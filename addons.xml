@@ -450,41 +450,6 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.getrealdebrid" name="[B][COLOR yellow]Cool Frontend For[/COLOR] - [COLOR blue]Real[/COLOR]-[COLOR orange]Debrid[/COLOR][/B]" version="3.4" provider-name="Diamond">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.universalscrapers" version="1.0.0" />
-        <import addon="script.module.python.koding.aio.alt" version="0.9.6.6" />
-        <import addon="script.module.beautifulsoup" version="3.2.1" />
-        <import addon="script.module.requests" version="2.9.1" />
-        <import addon="script.module.addon.common" version="2.0.0" />
-        <import addon="script.module.xmltodict" version="0.9.0" />
-        <import addon="plugin.video.realdebird" version="1.0" />
-        <import addon="script.diamond.getrealdebrid" version="2.7" />
-        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
-        <import addon="script.module.resolveurl" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
-    <extension point="xbmc.addon.metadata">
-<summary lang="en">[B][COLOR yellow]Get[/COLOR] [COLOR blue]Real[/COLOR]-[COLOR orange]Debrid[/COLOR][/B]</summary>
-<description lang="en">[B][COLOR yellow]Get[/COLOR] [COLOR blue]Real[/COLOR]-[COLOR orange]Debrid[/COLOR][/B]</description>
-<disclaimer lang="en">
-The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.
-The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
-The Search process is the same as a search engine with no data actually hosted by the developer.
-This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.
-</disclaimer>
-<platform>all</platform>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
-    </assets>
-</extension>
-</addon>
-
 <addon id="plugin.video.livehub2.Diamondize" name="[COLOR aqua][B]A Pirate's Life for Me[/COLOR] [COLORlime](Should Work In UK)[/COLOR][/B]" version="12.0" provider-name="SomeBody">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1369,24 +1334,6 @@ This is a Non-profit resource, organized solely for educational purposes which i
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <summary lang="en">Small Script for Pairing</summary>
-    <description lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.</description>
-    <disclaimer lang="en">-</disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-  </extension>
-</addon>
-
-<addon id="script.diamond.getrealdebrid" name="[B][COLOR yellow]Get[/COLOR] [COLOR blue]Real[/COLOR]-[COLOR orange]Debrid[/COLOR][/B]" version="999.999.004" provider-name="[COLOR red]F[COLOR white]T[COLOR blue]G[/COLOR]">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="pair.py">
-        <provides>all</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Small Script for Getting Real-Debrid</summary>
     <description lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.</description>
     <disclaimer lang="en">-</disclaimer>
     <language></language>
