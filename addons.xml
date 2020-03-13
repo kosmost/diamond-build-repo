@@ -1100,62 +1100,6 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-<addon id="repository.Diamond-Metalliq-EIM" name="[COLOR crimson]D[COLOR silver]iamond EIM MetalliQ Repo (OpenInfo-OpenMeta)[/COLOR][/COLOR] - Warning this will overwrite your OpenMeta/OpenInfo" version="1.6" provider-name="Team Diamond">
-<extension point="xbmc.addon.repository" name="Diamond Build (OpenMeta) Repository">
-<!-- Diamond Repository -->
-
-<dir>
-<info compressed="false">https://raw.githubusercontent.com/bobbybark/diamond-eim-repo/master/addons.xml</info>
-<checksum>https://raw.githubusercontent.com/bobbybark/diamond-eim-repo/master/addons.xml.md5</checksum>
-<datadir zip="true">https://raw.githubusercontent.com/bobbybark/diamond-eim-repo/master/</datadir>
-</dir>
-
-<dir>
-<info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
-<checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
-<datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
-</dir>
-</extension>
-<extension point="xbmc.addon.metadata">
-<summary>Diamond Build (OpenMeta) Repository - Warning this will overwrite your OpenMeta and OpenInfo, Only difference will be Player Files come from my URL</summary>
-<description>OpenMeta and OpenInfo For Diamond Build - Warning this will overwrite your OpenMeta and OpenInfo, Only difference will be Player Files come from my URL</description>
-<disclaimer></disclaimer>
-<platform>all</platform>
-</extension>
-</addon>
-
-<addon id="repository.Diamond-Superfavs-Repo" name="[COLOR crimson]D[COLOR silver]iamond Super Favourites Repo[/COLOR][/COLOR] - Warning this will overwrite your super favorites" version="1.6" provider-name="Diamond Build">
-<extension point="xbmc.addon.repository" name="Diamond Wizard Repo">
-<dir>
-<info compressed="false">https://raw.githubusercontent.com/bobbybark/diamond-superfav-repo/master/addons.xml</info>
-<checksum>https://raw.githubusercontent.com/bobbybark/diamond-superfav-repo/master/addons.xml.md5</checksum>
-<datadir zip="true">https://raw.githubusercontent.com/bobbybark/diamond-superfav-repo/master/</datadir>
-</dir>
-</extension>
-<extension point="xbmc.addon.metadata">
-<summary lang="en">Diamond Server Favs Repo</summary>
-<description lang="en">Super Favs Repo For Diamond Build, Bought to you by Diamond Build - Warning this will overwrite your super favorites</description>
-<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
-<platform>all</platform>
-</extension>
-</addon>
-
-<addon id="repository.Diamond-Testings-Repo" name="[COLOR crimson]D[COLOR silver]iamond Testings Repo[/COLOR]" version="1.0.4" provider-name="Diamond Build">
-<extension point="xbmc.addon.repository" name="Diamond Wizard Repo">
-<dir>
-<info compressed="false">http://m3u.xyz/repo-files/testings/addons.xml</info>
-<checksum>http://m3u.xyz/repo-files/testings/addons.xml.md5</checksum>
-<datadir zip="true">http://repo.rubyjewelwizard.com/repo/diamond/testings/zips/</datadir>
-</dir>
-</extension>
-<extension point="xbmc.addon.metadata">
-<summary lang="en">Diamond Testings Repo</summary>
-<description lang="en">Testing Repo For Diamond Build, Bought to you by Diamond Build</description>
-<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
-<platform>all</platform>
-</extension>
-</addon>
-
 <addon id="repository.Diamond-Wizard-Repo" name=".[COLORwhite]***[/COLOR][COLOR crimson]D[/COLOR][COLOR silver]iamond Build Repo (Primary Server, Main Repo)[/COLOR][COLORwhite]***[/COLOR]" version="4.1" provider-name="Diamond Build">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
