@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.puckapks_alt" name="[COLORyellow]Puck APK's - ALT[/COLOR] - [COLORlime]Please Use[/COLOR] - [COLOR grey][B]Real[COLOR blue]Debrid[/B][/COLOR]" version="1.7" provider-name="Diamond">
+<addon id="plugin.video.puckapks_alt" name="[COLORyellow]Puck APK's - ALT[/COLOR] - [COLORlime]Please Use[/COLOR] - [COLOR grey][B]Real[COLOR blue]Debrid[/B][/COLOR]" version="1.8" provider-name="Diamond">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
