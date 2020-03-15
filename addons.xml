@@ -514,7 +514,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.mtb.vr8fg8b" version="99.2.6.7" name="[B][COLOR aqua]The USS Defiant[/COLOR][/B]" provider-name="Defiant">
+<addon id="plugin.video.mtb.vr8fg8b" version="99.2.6.8" name="[B][COLOR aqua]The USS Defiant[/COLOR][/B]" provider-name="Defiant">
    <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.mtb.vr8fg8b" />
@@ -1744,7 +1744,7 @@ Fixed: Downloads on many sites
     </extension>
 </addon>
 
-<addon id="script.module.mtb.vr8fg8b" version="99.2.7.0" name="The USS Defiant Module" provider-name="Defiant">
+<addon id="script.module.mtb.vr8fg8b" version="99.2.7.1" name="The USS Defiant Module" provider-name="Defiant">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4"/>
