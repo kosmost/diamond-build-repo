@@ -157,11 +157,11 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.7of9" name="[COLOR aqua][B]7 of 9[/COLOR][/B] [COLOR red][B](AIO)[/COLOR][/B] + [COLOR grey][B]Real[COLOR blue]Debrid[/B][/COLOR]" version="4.8" provider-name="SomeBody">
+<addon id="plugin.video.7of9" name="[COLOR aqua][B]7 of 9[/COLOR][/B] [COLOR red][B](AIO)[/COLOR][/B] + [COLOR grey][B]Real[COLOR blue]Debrid[/B][/COLOR]" version="4.9" provider-name="SomeBody">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
-        <import addon="script.module.python.koding.aio.alt" version="0.9.6.6" />
+        <import addon="script.module.python.koding.aio.alt" version="1.1" />
         <import addon="script.module.beautifulsoup" version="3.2.1" />
         <import addon="script.module.requests" version="2.9.1" />
         <import addon="script.module.addon.common" version="2.0.0" />
@@ -176,7 +176,7 @@
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>audio video</provides>
     </extension>
-    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.pass" library="service.py" start="[login|startup]" />
     <extension point="xbmc.addon.metadata">
 <summary lang="en">7of9 - All In One</summary>
         <description lang="en">7of9 - All In One</description>
@@ -286,11 +286,11 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.deltaquadrant" name="[B][COLOR lightseagreen]Delta Quadrant - One Click[/COLOR][/B]" version="3.9" provider-name="SomeBody">
+<addon id="plugin.video.deltaquadrant" name="[B][COLOR lightseagreen]Delta Quadrant - One Click[/COLOR][/B]" version="4.0" provider-name="SomeBody">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
-        <import addon="script.module.python.koding.aio.alt" version="0.9.6.6" />
+        <import addon="script.module.python.koding.aio.alt" version="1.1" />
         <import addon="script.module.beautifulsoup" version="3.2.1" />
         <import addon="script.module.requests" version="2.9.1" />
         <import addon="script.module.addon.common" version="2.0.0" />
