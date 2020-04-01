@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="script.module.7of9-my.apple_trailers" version="2.0.0c" name="My Apple Trailers - 7of9 Module" provider-name="tknorris">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.tknorris.shared" version="0.0.23"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>all</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Browse and Play Trailers from the Apple iTunes Website</summary>
+        <description>Cloned for 7of9, Browse and Play Trailers from Apple iTunes Website. (Forked from the original ITunes Trailer addon by dersphere)</description>
+        <platform>all</platform>
+        <website>http://tvaddons.ag/</website>
+		<forum>http://forums.tvaddons.ag/forums/180-TKNORRIS-RELEASE-REPOSITORY</forum>
+	</extension>
+</addon>

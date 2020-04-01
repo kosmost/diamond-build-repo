@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.realdebird" name="[COLOR grey][B]Real[COLOR blue]Debrid[/B][/COLOR]" version="1.0" provider-name="JewBMX">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="script.module.six" version="1.9.0"/>
+        <import addon="script.module.resolveurl" version="5.0.06"/>
+        <import addon="script.module.xbmcswift2" version="1.3.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Video plugin for Real-Debrid.com </summary>
+        <description lang="en">Explore and stream your downloads folder on real-debrid.com </description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+        <license>Free the People!, Free the World!!</license>
+        <news></news>
+    </extension>
+</addon>
+

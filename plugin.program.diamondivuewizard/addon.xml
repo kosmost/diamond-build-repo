@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.diamondivuewizard" name="[COLOR yellow]Ivue TV Guide Installer By Diamond Build[/COLOR]" version="4.5" provider-name="SomeBody">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Ivue Guide Installer By Diamond Build</summary>
+    <description lang="en">Ivue Guide Installer By Diamond Build.</description>
+    <platform>all</platform>
+  </extension>
+</addon>

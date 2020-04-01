@@ -1598,33 +1598,6 @@ Fixed: Downloads on many sites
     </extension>
 </addon>
 
-<addon id="script.module.bottle" name="Bottle" version="0.12.8" provider-name="Team Kodi">
-  <requires>
-    <import addon="xbmc.python" version="2.19.0"/>
-  </requires>
-  <extension point="xbmc.python.module" library="lib"/>
-  <extension point="kodi.addon.metadata">
-    <summary>Bottle module</summary>
-    <description>Fast and simple WSGI-framework for small web-applications</description>
-    <license>MIT</license>
-    <platform>all</platform>
-    <website>http://bottlepy.org</website>
-  </extension>
-</addon>
-
-<addon id="script.module.cryptolib" name="Crypto Libraries" version="1.0.0" provider-name="Twilight0">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary>Pure Python implementation of some cryptographic libraries</summary>
-    <source>https://github.com/Twilight0/script.module.cryptolib</source>
-    <platform>all</platform>
-    <license>MIT</license>
-  </extension>
-</addon>
-
 <addon id="script.module.diamondcinema" name="Diamond Cinema Scrapers - 7of9 Module" version="1.5" Eprovider-name="Diamond Build">
   <requires>
 	<import addon="script.module.requests" />
@@ -1680,25 +1653,6 @@ Fixed: Downloads on many sites
              library="lib" />
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="script.module.liveresolver"
-     name="LiveResolver"
-     version="0.1.50"
-     provider-name="natko1412">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.addon.common" version="2.0.0" />
-
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Resolve common live video host URL's to be playable in XBMC/Kodi + find links embeded in sites.</summary>
-    <description lang="en"></description>
   </extension>
 </addon>
 
