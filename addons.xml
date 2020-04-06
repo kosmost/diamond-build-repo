@@ -1232,7 +1232,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
   </extension>
 </addon>
 
-<addon id="script.diamond.getrealdebrid" name="[B][COLOR yellow]Get[/COLOR] [COLOR blue]Real[/COLOR]-[COLOR orange]Debrid[/COLOR][/B]" version="999.999.005" provider-name="[COLOR red]F[COLOR white]T[COLOR blue]G[/COLOR]">
+<addon id="script.diamond.getrealdebrid" name="[B][COLOR yellow]Get[/COLOR] [COLOR blue]Real[/COLOR]-[COLOR orange]Debrid[/COLOR][/B]" version="999.999.006" provider-name="[COLOR red]F[COLOR white]T[COLOR blue]G[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
