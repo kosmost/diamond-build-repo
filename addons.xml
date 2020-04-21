@@ -319,7 +319,7 @@ This addon implements RTMP streaming support for Kodi and installed add-ons.
     </extension>
 </addon>
 
-<addon id="plugin.video.betaquadrant" name="[B][COLOR lightseagreen]Beta Quadrant - IPTV, 24.7[/COLOR][/B]" version="4.5" provider-name="SomeBody">
+<addon id="plugin.video.betaquadrant" name="[B][COLOR lightseagreen]Beta Quadrant - IPTV, 24.7[/COLOR][/B]" version="4.6" provider-name="SomeBody">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -382,7 +382,7 @@ This addon implements RTMP streaming support for Kodi and installed add-ons.
     </extension>
 </addon>
 
-<addon id="plugin.video.deltaquadrant" name="[B][COLOR lightseagreen]Delta Quadrant - One Click[/COLOR][/B]" version="4.2" provider-name="SomeBody">
+<addon id="plugin.video.deltaquadrant" name="[B][COLOR lightseagreen]Delta Quadrant - One Click[/COLOR][/B]" version="4.3" provider-name="SomeBody">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
