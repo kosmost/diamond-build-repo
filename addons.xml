@@ -1516,7 +1516,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-<addon id="script.module.7of9-pirateslife4me" name="A Pirate's Life for Me - 7of9 Module" version="1.3" provider-name="SomeBody">
+<addon id="script.module.7of9-pirateslife4me" name="A Pirate's Life for Me - 7of9 Module" version="12.1" provider-name="SomeBody">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
@@ -1926,7 +1926,7 @@ Fixed: Downloads on many sites
     </extension>
 </addon>
 
-<addon id="script.module.pantypirates" name="[COLOR aqua][B]Panty Pirates Module[/COLOR] [COLORlime](Should Work In UK)[/COLOR][/B] [COLOR gold](Real-Debrid Only)[/COLOR]" version="1.3" provider-name="SomeBody">
+<addon id="script.module.pantypirates" name="[COLOR aqua][B]Panty Pirates Module[/COLOR] [COLORlime](Should Work In UK)[/COLOR][/B] [COLOR gold](Real-Debrid Only)[/COLOR]" version="1.4" provider-name="SomeBody">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
