@@ -691,7 +691,7 @@ v3.0.5
 
 <addon id="plugin.video.shadow"
 	   name="Shadow"
-	   version="1.6.2"
+	   version="1.6.3"
 	   provider-name="Darkness">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
