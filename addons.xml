@@ -1067,7 +1067,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-<addon id="repository.Diamond-Wizard-Repo" name=".[COLORwhite]***[/COLOR][COLOR crimson]D[/COLOR][COLOR silver]iamond Build Repo (Primary Server, Main Repo)[/COLOR][COLORwhite]***[/COLOR]" version="6.0" provider-name="Diamond Build">
+<addon id="repository.Diamond-Wizard-Repo" name=".[COLORwhite]***[/COLOR][COLOR crimson]D[/COLOR][COLOR silver]iamond Build Repo (Primary Server, Main Repo)[/COLOR][COLORwhite]***[/COLOR]" version="6.1" provider-name="Diamond Build">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
@@ -1078,56 +1078,6 @@ This is a Non-profit resource, organized solely for educational purposes which i
 		<checksum>https://raw.githubusercontent.com/bobbybark/diamond-build-repo/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/bobbybark/diamond-build-repo/master/</datadir>
 		<hashes>false</hashes>
-		<dir>
-		<info compressed="false">https://repo.rubyjewelwizard.com/myrepo/back1/addons.xml</info>
-		<checksum>https://repo.rubyjewelwizard.com/myrepo/back1/addons.xml.md5</checksum>
-		<datadir zip="true">https://repo.rubyjewelwizard.com/myrepo/back1/</datadir>
-		</dir>
-		<dir>
-		<info compressed="false">https://repo.rubyjewelwizard.com/myrepo/back2/addons.xml</info>
-		<checksum>https://repo.rubyjewelwizard.com/myrepo/back2/addons.xml.md5</checksum>
-		<datadir zip="true">https://repo.rubyjewelwizard.com/myrepo/back2/</datadir>
-		</dir>
-		<dir>
-		<info compressed="false">https://repo.rubyjewelwizard.com/myrepo/back3/addons.xml</info>
-		<checksum>https://repo.rubyjewelwizard.com/myrepo/back3/addons.xml.md5</checksum>
-		<datadir zip="true">https://repo.rubyjewelwizard.com/myrepo/back3/</datadir>
-		</dir>
-		<dir>
-		<info compressed="false">https://repo.rubyjewelwizard.com/myrepo/back4/addons.xml</info>
-		<checksum>https://repo.rubyjewelwizard.com/myrepo/back4/addons.xml.md5</checksum>
-		<datadir zip="true">https://repo.rubyjewelwizard.com/myrepo/back4/</datadir>
-		</dir>
-		<dir>
-		<info compressed="false">https://repo.rubyjewelwizard.com/myrepo/back5/addons.xml</info>
-		<checksum>https://repo.rubyjewelwizard.com/myrepo/back5/addons.xml.md5</checksum>
-		<datadir zip="true">https://repo.rubyjewelwizard.com/myrepo/back5/</datadir>
-		</dir>
-		<dir>
-		<info compressed="false">https://repo.rubyjewelwizard.com/myrepo/back6/addons.xml</info>
-		<checksum>https://repo.rubyjewelwizard.com/myrepo/back6/addons.xml.md5</checksum>
-		<datadir zip="true">https://repo.rubyjewelwizard.com/myrepo/back6/</datadir>
-		</dir>
-		<dir>
-		<info compressed="false">https://repo.rubyjewelwizard.com/myrepo/back7/addons.xml</info>
-		<checksum>https://repo.rubyjewelwizard.com/myrepo/back7/addons.xml.md5</checksum>
-		<datadir zip="true">https://repo.rubyjewelwizard.com/myrepo/back7/</datadir>
-		</dir>
-		<dir>
-		<info compressed="false">https://repo.rubyjewelwizard.com/myrepo/back8/addons.xml</info>
-		<checksum>https://repo.rubyjewelwizard.com/myrepo/back8/addons.xml.md5</checksum>
-		<datadir zip="true">https://repo.rubyjewelwizard.com/myrepo/back8/</datadir>
-		</dir>
-		<dir>
-		<info compressed="false">https://repo.rubyjewelwizard.com/myrepo/back9/addons.xml</info>
-		<checksum>https://repo.rubyjewelwizard.com/myrepo/back9/addons.xml.md5</checksum>
-		<datadir zip="true">https://repo.rubyjewelwizard.com/myrepo/back9/</datadir>
-		</dir>
-		<dir>
-		<info compressed="false">https://repo.rubyjewelwizard.com/myrepo/back10/addons.xml</info>
-		<checksum>https://repo.rubyjewelwizard.com/myrepo/back10/addons.xml.md5</checksum>
-		<datadir zip="true">https://repo.rubyjewelwizard.com/myrepo/back10/</datadir>
-		</dir>
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
@@ -1168,7 +1118,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-<addon id="repository.Diamond-Wizard-Repo2" name=".[COLORwhite]***[/COLOR][COLOR crimson]D[/COLOR][COLOR silver]iamond Build Repo (Secondary Server, Backup Repo)[/COLOR][COLORwhite]***[/COLOR]" version="6.0" provider-name="Diamond Build">
+<addon id="repository.Diamond-Wizard-Repo2" name=".[COLORwhite]***[/COLOR][COLOR crimson]D[/COLOR][COLOR silver]iamond Build Repo (Secondary Server, Backup Repo)[/COLOR][COLORwhite]***[/COLOR]" version="6.1" provider-name="Diamond Build">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
@@ -1228,36 +1178,6 @@ This is a Non-profit resource, organized solely for educational purposes which i
 		<info compressed="false">https://repo.rubyjewelwizard.com/myrepo/back10/addons.xml</info>
 		<checksum>https://repo.rubyjewelwizard.com/myrepo/back10/addons.xml.md5</checksum>
 		<datadir zip="true">https://repo.rubyjewelwizard.com/myrepo/back10/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
 		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
