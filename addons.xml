@@ -320,8 +320,8 @@
 </addon>
 
 <addon id="plugin.video.destinyoflocutus"
-	   name="[COLOR aqua][B]Locutus[/COLOR][/B] [COLORlime][B](Debrid Torrent Only)[/COLOR][/B]"
-	   version="2.4"
+	   name=" [COLOR aqua][B]Locutus[/COLOR][/B] [COLORlime][B](Debrid Torrent Only)[/COLOR][/B]"
+	   version="2.5"
 	   provider-name="Dark Child">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
